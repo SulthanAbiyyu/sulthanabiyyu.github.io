@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://sulthanabiyyu.github.io/sitemap.xml
