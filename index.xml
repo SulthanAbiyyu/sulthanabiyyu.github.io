@@ -6,14 +6,14 @@
     <description>Recent content on Sulthan Abiyyu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 19 Jan 2023 20:30:40 +0700</lastBuildDate><atom:link href="https://sulthanabiyyu.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 19 Jan 2023 20:43:03 +0700</lastBuildDate><atom:link href="https://sulthanabiyyu.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Test</title>
-      <link>https://sulthanabiyyu.github.io/blog/test/</link>
-      <pubDate>Thu, 19 Jan 2023 20:30:40 +0700</pubDate>
+      <title>The Long Journey of Solving Gradient Problem</title>
+      <link>https://sulthanabiyyu.github.io/blog/the-long-journey-of-solving-gradient-problem/</link>
+      <pubDate>Thu, 19 Jan 2023 20:43:03 +0700</pubDate>
       
-      <guid>https://sulthanabiyyu.github.io/blog/test/</guid>
-      <description>blablbabalab</description>
+      <guid>https://sulthanabiyyu.github.io/blog/the-long-journey-of-solving-gradient-problem/</guid>
+      <description>Introduction In neural networks, we use gradients to examine and tweak our weight so it can converge and hopefully have a good general performance. Neural networks were invented around 1944 by Warren McCullough and Walter Pitts. But why is it just trending recently? In the early 2000s, deep neural networks were considered as abandoned technology because they tend to have unstable gradients. This problem is known as vanishing gradient or the opposite, exploding gradient problem.</description>
     </item>
     
     
