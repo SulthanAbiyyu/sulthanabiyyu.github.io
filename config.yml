@@ -67,7 +67,7 @@ params:
       - name: Project
         url: project
       - name: Blog
-        url: blogs
+        url: blog
 
   # home-info mode
   # homeInfoParams:
@@ -113,9 +113,9 @@ menu:
       name: Project
       url: /project/
       weight: 20
-    - identifier: blogs
+    - identifier: blog
       name: Blog
-      url: /blogs/
+      url: /blog/
       weight: 30
     - identifier: archieve
       name: Archieve
