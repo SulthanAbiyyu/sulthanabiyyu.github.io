@@ -1,6 +1,5 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
-description: "blablbabalab"
 date: {{ .Date }}
 draft: true
 weight: 1
