@@ -81,6 +81,8 @@ params:
       url: "https://github.com/SulthanAbiyyu"
     - name: linkedin
       url: "https://www.linkedin.com/in/sulthanabiyyu/"
+    - name: email
+      url: "mailto:sabiyyuhakim@gmail.com"
 
   cover:
     hidden: true # hide everywhere but not in structured data
