@@ -1,36 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Sulthan Abiyyu</title>
-    <link>https://sulthanabiyyu.github.io/</link>
-    <description>Recent content on Sulthan Abiyyu</description>
+    <title>Projects on Sulthan Abiyyu</title>
+    <link>https://sulthanabiyyu.github.io/project/</link>
+    <description>Recent content in Projects on Sulthan Abiyyu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 20 Jan 2023 10:02:59 +0700</lastBuildDate><atom:link href="https://sulthanabiyyu.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Deploying Machine Learning Api With Fastapi Docker Heroku</title>
-      <link>https://sulthanabiyyu.github.io/blog/deploying-machine-learning-api-with-fastapi-docker-heroku/</link>
-      <pubDate>Fri, 20 Jan 2023 10:02:59 +0700</pubDate>
-      
-      <guid>https://sulthanabiyyu.github.io/blog/deploying-machine-learning-api-with-fastapi-docker-heroku/</guid>
-      <description>blablbabalab</description>
-    </item>
-    
+    <lastBuildDate>Tue, 17 Jan 2023 10:01:18 +0700</lastBuildDate><atom:link href="https://sulthanabiyyu.github.io/project/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Latent Clustering</title>
       <link>https://sulthanabiyyu.github.io/project/latent-clustering/</link>
       <pubDate>Tue, 17 Jan 2023 10:01:18 +0700</pubDate>
       
       <guid>https://sulthanabiyyu.github.io/project/latent-clustering/</guid>
-      <description>blablbabalab</description>
-    </item>
-    
-    <item>
-      <title>Unboxing Batch Gradient Descent</title>
-      <link>https://sulthanabiyyu.github.io/blog/unboxing-batch-gradient-descent/</link>
-      <pubDate>Wed, 14 Dec 2022 10:02:36 +0700</pubDate>
-      
-      <guid>https://sulthanabiyyu.github.io/blog/unboxing-batch-gradient-descent/</guid>
       <description>blablbabalab</description>
     </item>
     
@@ -80,15 +62,6 @@
     </item>
     
     <item>
-      <title>The Long Journey of Solving Gradient Problem</title>
-      <link>https://sulthanabiyyu.github.io/blog/the-long-journey-of-solving-gradient-problem/</link>
-      <pubDate>Sun, 13 Feb 2022 20:43:03 +0700</pubDate>
-      
-      <guid>https://sulthanabiyyu.github.io/blog/the-long-journey-of-solving-gradient-problem/</guid>
-      <description>Introduction In neural networks, we use gradients to examine and tweak our weight so it can converge and hopefully have a good general performance. Neural networks were invented around 1944 by Warren McCullough and Walter Pitts. But why is it just trending recently? In the early 2000s, deep neural networks were considered as abandoned technology because they tend to have unstable gradients. This problem is known as vanishing gradient or the opposite, exploding gradient problem.</description>
-    </item>
-    
-    <item>
       <title>Omicron Sentiment Analysis</title>
       <link>https://sulthanabiyyu.github.io/project/omicron-sentiment-analysis/</link>
       <pubDate>Sat, 29 Jan 2022 10:00:26 +0700</pubDate>
@@ -96,7 +69,6 @@
       <guid>https://sulthanabiyyu.github.io/project/omicron-sentiment-analysis/</guid>
       <description>blablbabalab</description>
     </item>
-    
     
   </channel>
 </rss>
