@@ -24,6 +24,7 @@ params:
   defaultTheme: auto # dark, light
   disableThemeToggle: false
 
+  ShowAllPagesInArchive: true
   ShowReadingTime: true
   ShowShareButtons: false
   ShowPostNavLinks: false
@@ -116,9 +117,9 @@ menu:
       name: Blog
       url: /blog/
       weight: 30
-    - identifier: archieve
-      name: Archieve
-      url: /archieve
+    - identifier: archive
+      name: Archive
+      url: /archive
       weight: 40
 
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
