@@ -94,14 +94,14 @@ params:
 
   # for search
   # https://fusejs.io/api/options.html
-  # fuseOpts:
-  #   isCaseSensitive: false
-  #   shouldSort: true
-  #   location: 0
-  #   distance: 1000
-  #   threshold: 0.4
-  #   minMatchCharLength: 0
-  #   keys: ["sulthan abiyyu hakim", "permalink", "summary", "content"]
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
 
 menu:
   main:
@@ -121,6 +121,10 @@ menu:
       name: Archive
       url: /archive
       weight: 40
+    - identifier: search
+      name: Search
+      url: /search
+      weight: 50
 
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
@@ -132,3 +136,9 @@ markup:
     # guessSyntax: true
     # lineNos: true
     # style: monokai
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # is necessary
