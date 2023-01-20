@@ -8,12 +8,12 @@
     <language>en-us</language>
     <lastBuildDate>Fri, 20 Jan 2023 10:02:59 +0700</lastBuildDate><atom:link href="https://sulthanabiyyu.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Deploying Machine Learning Api With Fastapi Docker Heroku</title>
+      <title>Deploying Machine Learning API With Fastapi &#43; Docker &#43; Heroku</title>
       <link>https://sulthanabiyyu.github.io/blog/deploying-machine-learning-api-with-fastapi-docker-heroku/</link>
       <pubDate>Fri, 20 Jan 2023 10:02:59 +0700</pubDate>
       
       <guid>https://sulthanabiyyu.github.io/blog/deploying-machine-learning-api-with-fastapi-docker-heroku/</guid>
-      <description>blablbabalab</description>
+      <description>Under construction.. 🚧👷‍♂️</description>
     </item>
     
     <item>
@@ -22,7 +22,8 @@
       <pubDate>Wed, 14 Dec 2022 10:02:36 +0700</pubDate>
       
       <guid>https://sulthanabiyyu.github.io/blog/unboxing-batch-gradient-descent/</guid>
-      <description>blablbabalab</description>
+      <description>If you familiar with linear regression, we need to define the slope and intercept to make the regression. What if we want to fit our linear regression model to numerical data? How do we get the best combination of slope and intercept with the least errors among the data? One of the answers is through gradient descent.
+Gradient descent may be one of the most important concepts that machine learning practitioners or enthusiasts must understand.</description>
     </item>
     
     <item>
