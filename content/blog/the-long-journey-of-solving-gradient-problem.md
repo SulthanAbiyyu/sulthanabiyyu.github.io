@@ -1,6 +1,6 @@
 ---
 title: "The Long Journey of Solving Gradient Problem"
-date: 2023-01-19T20:43:03+07:00
+date: 2022-02-13T20:43:03+07:00
 draft: false
 math: true
 weight: 1
