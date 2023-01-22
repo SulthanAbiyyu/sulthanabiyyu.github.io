@@ -6,7 +6,18 @@
     <description>Recent content in Blogs on Sulthan Abiyyu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 20 Jan 2023 10:02:59 +0700</lastBuildDate><atom:link href="https://sulthanabiyyu.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 22 Jan 2023 22:13:14 +0700</lastBuildDate><atom:link href="https://sulthanabiyyu.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>UNBOXING: Transformer Encoder and Decoder</title>
+      <link>https://sulthanabiyyu.github.io/blog/unboxing-transformer-encoder-and-decoder/</link>
+      <pubDate>Sun, 22 Jan 2023 22:13:14 +0700</pubDate>
+      
+      <guid>https://sulthanabiyyu.github.io/blog/unboxing-transformer-encoder-and-decoder/</guid>
+      <description>I always forget things I&amp;rsquo;ve learned; It doesn&amp;rsquo;t seem right. I wrote this blog mainly to refresh my own knowledge about transformer. I hope someone who reads this blog will find it useful. If something isn&amp;rsquo;t correct, please let me know 😀
+Architecture The transformer architecture from the famous &amp;ldquo;Attention Is All You Need&amp;rdquo; paper looks like this:
+Basically, it has two main parts: the encoder block (left) and the decoder block (right).</description>
+    </item>
+    
     <item>
       <title>Deploying Machine Learning API With Fastapi &#43; Docker &#43; Heroku</title>
       <link>https://sulthanabiyyu.github.io/blog/deploying-machine-learning-api-with-fastapi-docker-heroku/</link>
@@ -17,7 +28,7 @@
     </item>
     
     <item>
-      <title>Unboxing Batch Gradient Descent</title>
+      <title>UNBOXING: Batch Gradient Descent</title>
       <link>https://sulthanabiyyu.github.io/blog/unboxing-batch-gradient-descent/</link>
       <pubDate>Wed, 14 Dec 2022 10:02:36 +0700</pubDate>
       
