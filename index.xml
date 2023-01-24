@@ -6,7 +6,17 @@
     <description>Recent content on Sulthan Abiyyu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 22 Jan 2023 22:13:14 +0700</lastBuildDate><atom:link href="https://sulthanabiyyu.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 24 Jan 2023 15:51:56 +0700</lastBuildDate><atom:link href="https://sulthanabiyyu.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>UNBOXING: FNet, Mixing Tokens with Fouriers Transforms</title>
+      <link>https://sulthanabiyyu.github.io/blog/unboxing-fnet/</link>
+      <pubDate>Tue, 24 Jan 2023 15:51:56 +0700</pubDate>
+      
+      <guid>https://sulthanabiyyu.github.io/blog/unboxing-fnet/</guid>
+      <description>Last Sunday, I was waiting for my order at the food court with my family. That second I decided to skim the FNet paper to kill time. In this article, I will explain everything I know about FNet: Mixing Tokens with Fourier Transforms. Please correct me if you find something incorrect 😀
+Introduction In the FNet paper, the author uses the fourier transform as a sublayer that replaces the multi head attention sublayer in transformer.</description>
+    </item>
+    
     <item>
       <title>UNBOXING: Transformer Encoder and Decoder</title>
       <link>https://sulthanabiyyu.github.io/blog/unboxing-transformer-encoder-and-decoder/</link>
