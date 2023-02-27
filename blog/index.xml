@@ -6,7 +6,17 @@
     <description>Recent content in Blogs on Sulthan Abiyyu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 24 Jan 2023 15:51:56 +0700</lastBuildDate><atom:link href="https://sulthanabiyyu.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 27 Feb 2023 11:06:09 +0700</lastBuildDate><atom:link href="https://sulthanabiyyu.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>UNBOXING: Lottery Ticket Hypothesis</title>
+      <link>https://sulthanabiyyu.github.io/blog/unboxing-lottery-ticket-hypothesis/</link>
+      <pubDate>Mon, 27 Feb 2023 11:06:09 +0700</pubDate>
+      
+      <guid>https://sulthanabiyyu.github.io/blog/unboxing-lottery-ticket-hypothesis/</guid>
+      <description>This week I read papers that blows my mind. I write this blog to share my understanding about Lottery Ticket Hypothesis. As always, suggestions and corrections are always welcome 😃
+Drawing Winning Tickets Model pruning is a commonly used practice to reduce the number of parameters in a model while still maintaining performance. The question is, if a smaller model with fewer parameters can achieve good evaluation results, why do we need to train the entire model?</description>
+    </item>
+    
     <item>
       <title>UNBOXING: FNet, Mixing Tokens with Fouriers Transforms</title>
       <link>https://sulthanabiyyu.github.io/blog/unboxing-fnet/</link>
