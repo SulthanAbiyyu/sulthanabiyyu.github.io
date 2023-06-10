@@ -41,7 +41,7 @@ cover:
 
 ![](/blog/uas-sismul/20230521205753.png)
 
-- **Step2nya:**
+**Step2nya:**
 
 1. Satu gambar dibagi jadi beberapa macroblock. Macroblock berukuran 8x8
 2. Chroma subsampling
@@ -58,10 +58,14 @@ cover:
 8. DPCM (Differential PCM) untuk DC coef
    1. $Diff_{i}= DC_{i}- DC_{i-1}$, dimana $DC_{i}$ adalah koefisien DC pada macroblock ke i
    2. If the DC coefficients for the first five image blocks are 150, 155, 149, 152, 144, DPCM would produce 150, 5, −6, 3, −8, assuming the predictor for the ith block is simply di = DCi − DCi−1, and d0 = DC0.
-9. Huffman 1. Buat AC: (n trailing zeros, category, bits nya); buat DC: (category, bitsnya)![](/blog/uas-sismul/20230521212512.png) triknya: decimal dijadiin binary aja, kalo decimalnya (-), nanti tinggal diinvers 2. terus (n trailing zeros, category) dijadiin code word sesuai tabel ![](/blog/uas-sismul/20230521212845.png#center) buat ac (aku ga paham ini) https://www.globalspec.com/reference/39556/203279/appendix-b-huffman-tables-for-the-dc-and-ac-coefficients-of-the-jpeg-baseline-encoder ![](/blog/uas-sismul/20230521212856.png) buat dc
-   **kesimpulan:**
-10. Bagus buat web
-11. Jelek buat fotografi
+9. Huffman
+   1. Buat AC: (n trailing zeros, category, bits nya); buat DC: (category, bitsnya)![](/blog/uas-sismul/20230521212512.png) triknya: decimal dijadiin binary aja, kalo decimalnya (-), nanti tinggal diinvers
+   2. terus (n trailing zeros, category) dijadiin code word sesuai tabel ![](/blog/uas-sismul/20230521212845.png#center) buat ac (aku ga paham ini) https://www.globalspec.com/reference/39556/203279/appendix-b-huffman-tables-for-the-dc-and-ac-coefficients-of-the-jpeg-baseline-encoder ![](/blog/uas-sismul/20230521212856.png) buat dc
+
+**kesimpulan:**
+
+1. Bagus buat web
+2. Jelek buat fotografi
 
 ## Kompresi Video
 
