@@ -6,7 +6,16 @@
     <description>Recent content on Sulthan Abiyyu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 27 Feb 2023 11:06:09 +0700</lastBuildDate><atom:link href="https://sulthanabiyyu.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 10 Jun 2023 16:14:59 +0700</lastBuildDate><atom:link href="https://sulthanabiyyu.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rangkuman UAS Sistem Multimedia</title>
+      <link>https://sulthanabiyyu.github.io/blog/uas-sismul/</link>
+      <pubDate>Sat, 10 Jun 2023 16:14:59 +0700</pubDate>
+      
+      <guid>https://sulthanabiyyu.github.io/blog/uas-sismul/</guid>
+      <description>Kompresi Audio Teknik kompresi Predictive encoding Speech, selisih antar sampel Perceptual encoding CD, MP3 Lossless -&amp;gt; FLAC, ALAC, APE, WavPack Lossy -&amp;gt; MP3, AAC, WMA, OGG MPEG audio compression - psychoacoustic modeling -&amp;gt; keterbatasan pendengaran manusia, frequency masking - physically lossy, perceptually lossless (transparan) - sampling rate 32, 44.1, 48 khz - Bisa menambahkan ancillary data (data tambahan) diantara bit stream Polyphase Filter Bank membagi menjadi 32 bin subband frekuensi Dihubungkan dengan critical band Critical band rentang frekuensi dimana manusia lebih peka ke frekuensi rendah, maka alokasi bit dan subband untuk frekuensi rendah lebih banyak ketimbang tinggi.</description>
+    </item>
+    
     <item>
       <title>UNBOXING: Lottery Ticket Hypothesis</title>
       <link>https://sulthanabiyyu.github.io/blog/unboxing-lottery-ticket-hypothesis/</link>
