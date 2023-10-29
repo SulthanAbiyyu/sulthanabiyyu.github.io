@@ -6,7 +6,16 @@
     <description>Recent content on Sulthan Abiyyu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 10 Jun 2023 16:14:59 +0700</lastBuildDate><atom:link href="https://sulthanabiyyu.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 29 Oct 2023 16:30:54 +0700</lastBuildDate><atom:link href="https://sulthanabiyyu.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fanesis (Facial Network Analysis)</title>
+      <link>https://sulthanabiyyu.github.io/project/fanesis/</link>
+      <pubDate>Sun, 29 Oct 2023 16:30:54 +0700</pubDate>
+      
+      <guid>https://sulthanabiyyu.github.io/project/fanesis/</guid>
+      <description>Introduction Fanesis is a Facial Network Analysis tool that analyzes the faces and behaviors of individuals in a group and creates a visual representation of their relationships. Fanesis uses computer vision and machine learning techniques to detect the emotions and interactions of each individual. It then creates two types of associations: group-based and emotion-based. Group-based associations show how individuals are connected within the group, such as who knows whom, who is close to whom, and who is influential to whom.</description>
+    </item>
+    
     <item>
       <title>Rangkuman UAS Sistem Multimedia</title>
       <link>https://sulthanabiyyu.github.io/blog/uas-sismul/</link>
