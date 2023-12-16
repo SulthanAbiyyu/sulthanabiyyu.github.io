@@ -6,7 +6,16 @@
     <description>Recent content on Sulthan Abiyyu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 29 Oct 2023 16:30:54 +0700</lastBuildDate><atom:link href="https://sulthanabiyyu.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 16 Dec 2023 11:24:14 +0700</lastBuildDate><atom:link href="https://sulthanabiyyu.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rangkuman UAS Pengolahan Citra Digital</title>
+      <link>https://sulthanabiyyu.github.io/blog/uas-pcd/</link>
+      <pubDate>Sat, 16 Dec 2023 11:24:14 +0700</pubDate>
+      
+      <guid>https://sulthanabiyyu.github.io/blog/uas-pcd/</guid>
+      <description>Dasar Pengenalan Citra citra berisi matriks yang tiap elemennya adalah pixel yang merepresentasikan warna, bentuk, tekstur konversi citra RGB (0-255 tiap channelnya) ke grayscale pake rata-rata -&amp;gt; $x = \dfrac{r + g + b}{3}$ pake weighted avg -&amp;gt; $x = a_{r}r + a_{g}g + a_{b}b$ dimana $a_{k}$ adalah konstanta yang mengskalakan tiap channelnya dan $a_{r}+ a_{g}+a_{b} = 1$ di python tinggal cv2.cvtColor(img, cv2.COLOR_BGR2GRAY) konversi grayscale (0-255) ke biner (thresholding) pakai threshold $\theta$, misal $\theta=128$, maka $\begin{cases}1 \text{ jika } x \geq \theta \ 0 \text{ jika } x &amp;lt; \theta \end{cases}$ Atau pake rata-rata $\bar{x}$, $\begin{cases}1 \text{ jika } x \geq \bar{x}\ 0 \text{ jika } x &amp;lt; \bar{x} \end{cases}$ 1 itu artinya nyala/putih, 0 kebalikannya cv2.</description>
+    </item>
+    
     <item>
       <title>Fanesis (Facial Network Analysis)</title>
       <link>https://sulthanabiyyu.github.io/project/fanesis/</link>
