@@ -153,6 +153,38 @@ https://penny-xu.github.io/blog/mathematical-morphology
 - Algoritma eigenface -> pada setiap wajah di database dihitung dan menghasilkan eigenvalue dan eigenvector yang mana digunakan untuk mencari nilai bobot. Nanti kek diselisihin sama nilai eigenface dengan wajah yang dicari, yang paling kecil berarti paling cocok.
 - Cara untuk mendapatkan eigenface intinya adalah mengalikan matriks gabungan $S$ dengan eigenvector yang memiliki eigenvalue terbesar, kemudian di normalisasi
 
+## GLCM
+- Ekstraksi fitur tekstur. Capture pattern e.g. repetitiveness and granularity
+- Macam-macam texture features:
+	- **Statistical**
+		- General stats params (mean, median, dll)
+		- Autocorrelation features
+		- Laws textures energy features
+		- **Co occurange matrix based features (GLCM)**
+		- LBP features
+	- Structural
+	- Model
+		- Fractal features
+		- Random field features
+	- Filter
+		- Gabor filters
+		- Wavelet
+- Langkah-langkah GLCM
+	- Karena GLCM itu gray level, maka harus diconvert jadi grayscale dulu pake $\text{gray} = 0.299 \times R + 0.587 \times G + 0.114 \times B$
+	-  Membuat co occurance matrix. Ada 2 parameter, distance dan orientation. distance itu seberapa jauh pixel pair yang harus dicek. Kalo orientation ke arah mana pair pixelnya
+	- matriks GLCM harus simetris, jadi $C = C + C^{T}$ dimana $C$ adalah matriks GLCM
+	- Habis itu dinormalisasi dengan dibagi dengan total nilai matriks GLCM
+	- Selesai, dari sini bisa hitung fitur GLCM
+- Fitur GLCM:
+	- Kontras
+	- Dissimilarity
+	- Homogenity
+	- Angular Second Moment
+	- Energy
+	- Correlation
+- Co occurance matrices capture properties of texture but not directly useful for further analysis. Makanya perlu second order stats pake fitur2 di atas.
+- Bisa juga pake haralick features. Caranya pake konvolusi buat hitung GLCM. Terus ada banyak juga fitur2 nya.
+
 ## ResNet
 
 ![](/blog/uas-pcd/20231215214344.png)
