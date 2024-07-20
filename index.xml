@@ -6,7 +6,16 @@
     <description>Recent content on Sulthan Abiyyu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 16 Dec 2023 11:24:14 +0700</lastBuildDate><atom:link href="https://sulthanabiyyu.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 20 Jul 2024 17:06:01 +0700</lastBuildDate><atom:link href="https://sulthanabiyyu.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Catalogs of Data Engineering Projects</title>
+      <link>https://sulthanabiyyu.github.io/project/de-projects/</link>
+      <pubDate>Sat, 20 Jul 2024 17:06:01 +0700</pubDate>
+      
+      <guid>https://sulthanabiyyu.github.io/project/de-projects/</guid>
+      <description>Since 8 months ago, I began learning everything I could find about Data Engineering. I&amp;rsquo;ve consumed a lot of information on the topic from books, blogs, videos, courses, and forums. I’ve learned about the fundamentals, data warehousing, and data movement techniques like ETL and ELT. It has been quite a challenge, but also a lot of fun! There’s still so much more I want to explore. Data Engineering involves a multitude of tools, and I&amp;rsquo;m curious about every one of them.</description>
+    </item>
+    
     <item>
       <title>Rangkuman UAS Pengolahan Citra Digital</title>
       <link>https://sulthanabiyyu.github.io/blog/uas-pcd/</link>
