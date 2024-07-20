@@ -17,7 +17,7 @@ This post will document my journey as I experiment with these tools through vari
 ## 1. [First Impressions: Exploring common DE tools](https://github.com/SulthanAbiyyu/belajar-de/)
 
 {{< details >}}
-Tools used:
+**Tools used:**
 
 - Docker
 - Airflow
@@ -28,6 +28,35 @@ Tools used:
 - BigQuery
 - Postgres
 - Terraform
+  {{< /details >}}
+
+> Under construction.. 🚧👷‍♂️
+
+## 2. [Batch Big Data Processing](https://github.com/SulthanAbiyyu/duckdb-spark-pandas-postgre)
+
+{{< details >}}
+**Tools used:**
+
+- Docker
+- Postgres
+- DuckDB
+- Apache Spark
+  {{< /details >}}
+
+> Under construction.. 🚧👷‍♂️
+
+## 3. [AWS Data Stack](https://www.credly.com/badges/220c6a8a-30a0-4072-8aa2-43cbf72a8ea7/public_url)
+
+{{< details >}}
+**Tools used:**
+
+- Athena
+- S3
+- Glue
+- Redshift
+- EMR Clusters
+- Kinesis Data Stream and Firehose
+- Step Functions
   {{< /details >}}
 
 > Under construction.. 🚧👷‍♂️
