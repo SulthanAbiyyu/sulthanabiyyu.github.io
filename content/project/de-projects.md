@@ -30,6 +30,7 @@ This post will document my journey as I experiment with these tools through vari
   {{< /details >}}
 
 {{< details >}}
+\
 This project is essentially an introduction to various common data engineering (DE) tools. I experimented with tools for containerization, orchestration, transformation, data warehousing, stream processing, SQL and NoSQL databases, and Infrastructure as Code (IAC). I will explain my thoughts and impressions thoroughly in this first section.
 
 The first tool I tried was Airflow. Why? Because if you search for popular DE tools, Airflow appears in almost every blog that pops up. I used Docker for convenience of installation and setup. It was quite easy since there is already an image for it. All I needed to do was initialize the Airflow database, create a user, and run the webserver and scheduler. I also copied a simple DAG script from a book that ingests rocket launches data. In this experiment, I learned about DAG scripting and familiarized myself with the Airflow UI. I found the UI straightforward and informative; I liked that we could see past run statuses easily from the main dashboard. I also appreciated the DAG visualization, which provided a clear idea of how the data would move. This visualization also allows for double-checking our script.
@@ -57,9 +58,14 @@ Through this experiment, I gained a good grasp of common DE tools and understood
   {{< /details >}}
 
 {{< details >}}
+\
+In this project, I created an ETL pipeline that uses DuckDB as the SQL engine, Pandas/Spark as the processing engine, and PostgreSQL for both the data lake and data warehouse. I also implemented simple data modeling using the Kimball approach with a star schema and dockerized everything.
 
-> Under construction.. 🚧👷‍♂️
-> {{< /details >}}
+First, I made a data generator script to create dummy data using Faker. It was quite fast because I kept the generated data in memory first and then wrote it once it was done. Then, I used DuckDB to read the CSV file and perform SQL queries. With DuckDB, I could easily move the CSV data into PostgreSQL's `landing` schema, where I treated the database as a "data lake". After that, I read the data stored in `landing` with DuckDB and converted it into pandas or Spark. I created two options for data processing and transformation; one with pandas and the other using Spark. I made fact and dimension tables and inserted the data into a new schema called `marts`. The last step was to create the relationships between the fact and dimension tables. However, I had a hard time altering these using DuckDB. It said that the `add constraints` operation was not implemented yet. I believe this issue comes from the PostgreSQL extension on DuckDB. So instead, I just altered the relationships in PostgreSQL directly.
+
+I was amazed by DuckDB's performance, which could load millions of rows quickly and easily. I also liked that I could pass the data loaded in DuckDB into PostgreSQL easily with SQL. The conversion from the loaded DuckDB dataset into pandas/Spark was also seamless. Regarding data modeling, I finally experienced the advantages of the star schema. I could easily query and aggregate data by using one join operation. I'm glad that I made a `date` dimension because it made aggregating data over a certain amount of time easier.
+
+{{< /details >}}
 
 ## 3. [AWS Data Stack](https://www.credly.com/badges/220c6a8a-30a0-4072-8aa2-43cbf72a8ea7/public_url)
 
