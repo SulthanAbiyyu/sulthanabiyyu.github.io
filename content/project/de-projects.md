@@ -16,6 +16,8 @@ This post will document my journey as I experiment with these tools through vari
 
 ## 1. [First Impressions: Exploring common DE tools](https://github.com/SulthanAbiyyu/belajar-de/)
 
+Project link: https://github.com/SulthanAbiyyu/belajar-de/
+
 {{< details title="**Tools used:**">}}
 
 - Docker
@@ -49,6 +51,8 @@ Through this experiment, I gained a good grasp of common DE tools and understood
 
 ## 2. [Batch Big Data Processing](https://github.com/SulthanAbiyyu/duckdb-spark-pandas-postgre)
 
+Project link: https://github.com/SulthanAbiyyu/duckdb-spark-pandas-postgre
+
 {{< details title="**Tools used:**">}}
 
 - Docker
@@ -75,18 +79,22 @@ I was amazed by DuckDB's performance, which could load millions of rows quickly 
 - S3
 - Glue
 - Redshift
+- <Cloudformation></Cloudformation>
 - EMR Clusters
 - Kinesis Data Stream and Firehose
 - Step Functions
   {{< /details >}}
 
 {{< details >}}
+\
+I took a big data analytics course on short semester, and it was one of the best decisions I've made. The class provided me with a free AWS course on Data Engineering. The course included videos and written lectures, quizzes, and hands-on labs. I particularly enjoyed the hands-on labs because they gave me real experience using AWS services.
 
-> Under construction.. 🚧👷‍♂️
-> {{< /details >}}
+AWS essentially removes all the painful steps of setting up and managing servers, allowing developers to focus on the application instead. In class, I was tasked with setting up Hadoop and Spark on multiple instances, which was quite challenging. However, using AWS EMR clusters, I could create instances easily and scalably. Among all the tools I listed above, my favorite is Step Functions. I like to think of it as AWS's version of Airflow, but with drag-and-drop functionality. It resembles Mage AI's pipeline but is designed for AWS services. In the final lab, I created a full ETL pipeline from S3 to Athena, and finally to Redshift as a data warehouse. While it's wonderful to have everything set up with less worry about the infrastructure, I think it's best to learn to set things up myself so I'm not dependent on AWS.
+{{< /details >}}
 
 ## 4. [Reverse Proxy, Load Balancing, and Stress Test](https://github.com/SulthanAbiyyu/stress-test-arggh)
 
+Project link: https://github.com/SulthanAbiyyu/stress-test-arggh
 {{< details title="**Tools used:**">}}
 
 - Nginx
@@ -96,6 +104,9 @@ I was amazed by DuckDB's performance, which could load millions of rows quickly 
   {{< /details >}}
 
 {{< details >}}
+\
+This project demonstrates the use of Nginx and Locust to implement load balancing, reverse proxying, and stress testing. Nginx acts as a reverse proxy to distribute incoming traffic between two application instances (app1 and app2), while Locust, configured with master and worker nodes, is used to perform stress testing on the setup. The project is structured with a `docker-compose.yaml` file that defines all necessary services, including Nginx, two app instances, and Locust nodes. The configuration ensures that Nginx proxies traffic to the applications, and Locust tests the system's performance under load. The entire setup can be run using Docker Compose, making it easy to deploy and test the load balancing and proxying capabilities.
 
-> Under construction.. 🚧👷‍♂️
-> {{< /details >}}
+I'm having a hard time setting up Nginx on my OpenSUSE Tumbleweed machine. I've tried configuring it and creating appropriate firewall rules, but the problem still persists. So, I used Docker instead, and everything works like a charm. I like that Nginx can easily provide both reverse proxy and load balancing. This is my first time doing a stress test or load test, and it turns out it also uses a leader-worker architecture to distribute the load testing tasks efficiently. The Locust master node coordinates the test execution while the worker nodes generate the load, allowing for scalable and robust performance testing. This setup has given me valuable insights into how my applications handle traffic and has highlighted the importance of proper load balancing and stress testing in maintaining system reliability.
+
+{{< /details >}}
