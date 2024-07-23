@@ -29,7 +29,7 @@ This post will document my journey as I experiment with these tools through vari
 - Terraform
   {{< /details >}}
 
-{{< details}}
+{{< details >}}
 This project is essentially an introduction to various common data engineering (DE) tools. I experimented with tools for containerization, orchestration, transformation, data warehousing, stream processing, SQL and NoSQL databases, and Infrastructure as Code (IAC). I will explain my thoughts and impressions thoroughly in this first section.
 
 The first tool I tried was Airflow. Why? Because if you search for popular DE tools, Airflow appears in almost every blog that pops up. I used Docker for convenience of installation and setup. It was quite easy since there is already an image for it. All I needed to do was initialize the Airflow database, create a user, and run the webserver and scheduler. I also copied a simple DAG script from a book that ingests rocket launches data. In this experiment, I learned about DAG scripting and familiarized myself with the Airflow UI. I found the UI straightforward and informative; I liked that we could see past run statuses easily from the main dashboard. I also appreciated the DAG visualization, which provided a clear idea of how the data would move. This visualization also allows for double-checking our script.
