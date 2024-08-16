@@ -75,14 +75,14 @@ params:
   #   Content: Welcome to my blog
 
   socialIcons:
-    - name: medium
-      url: "https://sulthanabiyyu.medium.com/"
     - name: github
       url: "https://github.com/SulthanAbiyyu"
     - name: linkedin
       url: "https://www.linkedin.com/in/sulthanabiyyu/"
     - name: email
       url: "mailto:sabiyyuhakim@gmail.com"
+    - name: cv
+      url: "https://drive.google.com/file/d/15XfrUm6ErIhGtAflhNiz7jZSt3Cw921H/view?usp=sharing"
 
   cover:
     hidden: true # hide everywhere but not in structured data
