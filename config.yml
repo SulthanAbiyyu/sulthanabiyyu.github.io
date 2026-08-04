@@ -43,6 +43,8 @@ params:
   assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
+    theme_color: "#1b211d"
+    msapplication_TileColor: "#1b211d"
     favicon: "/favicon_io/favicon.ico"
     favicon16x16: "/favicon_io/favicon-16x16.png"
     favicon32x32: "/favicon_io/favicon-32x32.png"
@@ -56,13 +58,13 @@ params:
   # profile-mode
   profileMode:
     enabled: true # needs to be explicitly set
-    title: Hello, world! 🙋‍♂️
+    title: "Hello, I'm Sulthan."
     subtitle: "I'm an undergrad computer science student at Universitas Brawijaya. I'm interested in data, machine learning, and deep learning (especially natural language processing)"
     imageUrl: "https://avatars.githubusercontent.com/u/67581937?v=4"
     imageWidth: 120
     imageHeight: 120
 
-    imageTitle: my image
+    imageTitle: Portrait of Sulthan Abiyyu
     buttons:
       - name: Project
         url: project

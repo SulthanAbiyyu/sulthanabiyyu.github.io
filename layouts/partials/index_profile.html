@@ -1,6 +1,9 @@
 <div class="profile">
     {{- with site.Params.profileMode }}
     <div class="profile_inner">
+        <p class="profile-kicker" aria-label="Areas of interest">
+            <span>data</span><span>machine learning</span><span>nlp</span>
+        </p>
         {{- if .imageUrl -}}
         {{- $img := "" }}
         {{- if not (urls.Parse .imageUrl).IsAbs }}
