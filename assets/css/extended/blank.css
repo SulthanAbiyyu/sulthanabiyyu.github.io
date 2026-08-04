@@ -407,7 +407,7 @@ button#theme-toggle:hover {
 /* Landing page pet */
 .page-pet {
     position: fixed;
-    bottom: max(8px, env(safe-area-inset-bottom));
+    top: 0;
     left: 0;
     z-index: 3;
     width: 112px;
@@ -418,16 +418,19 @@ button#theme-toggle:hover {
     border: 0;
     cursor: pointer;
     filter: drop-shadow(0 5px 5px rgb(12 15 20 / 22%));
-    animation: pet-roam 26s linear infinite;
-    will-change: transform;
+    opacity: 0;
+    transform: translate3d(var(--pet-x, 12px), var(--pet-y, 70vh), 0);
+    transition: opacity 160ms ease;
+}
+
+.page-pet.is-placed {
+    opacity: 1;
 }
 
 .page-pet__facing {
     display: block;
     width: 100%;
     height: 100%;
-    transform-origin: center bottom;
-    animation: pet-turn 26s linear infinite;
 }
 
 .page-pet__sprite {
@@ -436,7 +439,6 @@ button#theme-toggle:hover {
     height: 100%;
     object-fit: contain;
     image-rendering: pixelated;
-    animation: pet-step 440ms steps(2, end) infinite;
 }
 
 .page-pet__message {
@@ -480,58 +482,6 @@ button#theme-toggle:hover {
 .page-pet:focus-visible {
     outline: 1px dashed var(--accent);
     outline-offset: 3px;
-}
-
-.page-pet.is-greeting,
-.page-pet.is-greeting .page-pet__facing,
-.page-pet.is-greeting .page-pet__sprite {
-    animation-play-state: paused;
-}
-
-.page-pet.is-greeting .page-pet__sprite {
-    transform: translateY(-3px) rotate(-3deg);
-}
-
-@keyframes pet-roam {
-    0% {
-        transform: translate3d(-90px, 0, 0);
-    }
-
-    48%,
-    50% {
-        transform: translate3d(calc(100vw + 12px), 0, 0);
-    }
-
-    98%,
-    100% {
-        transform: translate3d(-90px, 0, 0);
-    }
-}
-
-@keyframes pet-turn {
-    0%,
-    48% {
-        transform: scaleX(1);
-    }
-
-    50%,
-    98% {
-        transform: scaleX(-1);
-    }
-
-    100% {
-        transform: scaleX(1);
-    }
-}
-
-@keyframes pet-step {
-    from {
-        transform: translateY(0) rotate(1deg);
-    }
-
-    to {
-        transform: translateY(-3px) rotate(-1deg);
-    }
 }
 
 /* Lists and entries */
@@ -1065,14 +1015,4 @@ button#theme-toggle:hover {
         transition-duration: 0.01ms !important;
     }
 
-    .page-pet,
-    .page-pet__facing,
-    .page-pet__sprite {
-        animation: none !important;
-    }
-
-    .page-pet {
-        right: 14px;
-        left: auto;
-    }
 }
