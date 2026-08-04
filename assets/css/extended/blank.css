@@ -283,16 +283,15 @@ button#theme-toggle:hover {
 .profile .profile_inner {
     display: grid;
     width: 100%;
-    max-width: 780px;
-    grid-template-columns: minmax(0, 1fr) 220px;
+    max-width: 680px;
+    grid-template-columns: minmax(0, 1fr);
     grid-template-areas:
-        "kicker portrait"
-        "title portrait"
-        "subtitle portrait"
-        "social portrait"
-        "buttons portrait";
+        "kicker"
+        "title"
+        "subtitle"
+        "social"
+        "buttons";
     align-items: start;
-    column-gap: clamp(34px, 6vw, 68px);
 }
 
 .profile-kicker {
@@ -312,23 +311,6 @@ button#theme-toggle:hover {
     content: " / ";
     margin: 0 8px;
     color: var(--border);
-}
-
-.profile-ascii {
-    grid-area: portrait;
-    justify-self: end;
-    margin: 0;
-    padding: 6px 0;
-    color: var(--accent);
-    font-family: var(--font-mono);
-    font-size: 10px;
-    font-weight: 400;
-    line-height: 1.5;
-    letter-spacing: -0.04em;
-    background: transparent;
-    border: 0;
-    border-radius: 0;
-    user-select: none;
 }
 
 .profile .profile_inner h1 {
@@ -868,7 +850,6 @@ button#theme-toggle:hover {
         grid-template-areas:
             "kicker"
             "title"
-            "portrait"
             "subtitle"
             "social"
             "buttons";
@@ -876,14 +857,6 @@ button#theme-toggle:hover {
 
 .profile-kicker {
         margin-bottom: 14px;
-    }
-
-    .profile-ascii {
-        justify-self: start;
-        margin-top: 20px;
-        padding: 10px;
-        font-size: 8px;
-        transform: none;
     }
 
 .profile .profile_inner h1 {

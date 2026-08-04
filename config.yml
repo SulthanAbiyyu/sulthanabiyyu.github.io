@@ -58,7 +58,7 @@ params:
   # profile-mode
   profileMode:
     enabled: true # needs to be explicitly set
-    title: "Hello, I'm Sulthan."
+    title: "Biyu"
     subtitle: "I'm an undergrad computer science student at Universitas Brawijaya. I'm interested in data, machine learning, and deep learning (especially natural language processing)"
     buttons:
       - name: Blog

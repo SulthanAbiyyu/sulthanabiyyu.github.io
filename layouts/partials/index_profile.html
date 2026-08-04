@@ -4,16 +4,6 @@
         <p class="profile-kicker" aria-label="Areas of interest">
             <span>data</span><span>machine learning</span><span>nlp</span>
         </p>
-        <pre class="profile-ascii" role="img" aria-label="ASCII art of data and words flowing into a model">       .--[ bi:yu ]--.
-  data      |      words
-     \      |      /
-      +--[ 01:10 ]--+
-             |
-         &lt; model &gt;
-        /    |    \
-     code  signal meaning
-             |
-           _/|</pre>
         <h1>{{ .title | default site.Title | markdownify }}</h1>
         <span>{{ .subtitle | markdownify }}</span>
         {{- partial "social_icons.html" site.Params.socialIcons -}}
