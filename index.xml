@@ -84,15 +84,6 @@ Basically, it has two main parts: the encoder block (left) and the decoder block
     </item>
     
     <item>
-      <title>Latent Clustering</title>
-      <link>https://sulthanabiyyu.github.io/project/latent-clustering/</link>
-      <pubDate>Tue, 17 Jan 2023 10:01:18 +0700</pubDate>
-      
-      <guid>https://sulthanabiyyu.github.io/project/latent-clustering/</guid>
-      <description>Under construction.. 🚧👷‍♂️</description>
-    </item>
-    
-    <item>
       <title>UNBOXING: Batch Gradient Descent</title>
       <link>https://sulthanabiyyu.github.io/blog/unboxing-batch-gradient-descent/</link>
       <pubDate>Wed, 14 Dec 2022 10:02:36 +0700</pubDate>
@@ -103,66 +94,12 @@ Gradient descent may be one of the most important concepts that machine learning
     </item>
     
     <item>
-      <title>N-Section Video Interpolation</title>
-      <link>https://sulthanabiyyu.github.io/project/n-section-video-interpolation/</link>
-      <pubDate>Mon, 03 Oct 2022 09:58:59 +0700</pubDate>
-      
-      <guid>https://sulthanabiyyu.github.io/project/n-section-video-interpolation/</guid>
-      <description>Under construction.. 🚧👷‍♂️</description>
-    </item>
-    
-    <item>
-      <title>Image Auto Labeling</title>
-      <link>https://sulthanabiyyu.github.io/project/image-auto-labeling/</link>
-      <pubDate>Tue, 12 Jul 2022 10:00:47 +0700</pubDate>
-      
-      <guid>https://sulthanabiyyu.github.io/project/image-auto-labeling/</guid>
-      <description>Under construction.. 🚧👷‍♂️</description>
-    </item>
-    
-    <item>
-      <title>Mkfol</title>
-      <link>https://sulthanabiyyu.github.io/project/mkfol/</link>
-      <pubDate>Fri, 01 Jul 2022 09:59:12 +0700</pubDate>
-      
-      <guid>https://sulthanabiyyu.github.io/project/mkfol/</guid>
-      <description>Under construction.. 🚧👷‍♂️</description>
-    </item>
-    
-    <item>
-      <title>ShortcutML</title>
-      <link>https://sulthanabiyyu.github.io/project/shortcutml/</link>
-      <pubDate>Fri, 24 Jun 2022 09:59:59 +0700</pubDate>
-      
-      <guid>https://sulthanabiyyu.github.io/project/shortcutml/</guid>
-      <description>Under construction.. 🚧👷‍♂️</description>
-    </item>
-    
-    <item>
-      <title>Levenshtein Typo Detector</title>
-      <link>https://sulthanabiyyu.github.io/project/levenshtein-typo-detector/</link>
-      <pubDate>Fri, 24 Jun 2022 09:59:45 +0700</pubDate>
-      
-      <guid>https://sulthanabiyyu.github.io/project/levenshtein-typo-detector/</guid>
-      <description>Under construction.. 🚧👷‍♂️</description>
-    </item>
-    
-    <item>
       <title>The Long Journey of Solving Gradient Problem</title>
       <link>https://sulthanabiyyu.github.io/blog/the-long-journey-of-solving-gradient-problem/</link>
       <pubDate>Sun, 13 Feb 2022 20:43:03 +0700</pubDate>
       
       <guid>https://sulthanabiyyu.github.io/blog/the-long-journey-of-solving-gradient-problem/</guid>
       <description>Introduction In neural networks, we use gradients to examine and tweak our weight so it can converge and hopefully have a good general performance. Neural networks were invented around 1944 by Warren McCullough and Walter Pitts. But why is it just trending recently? In the early 2000s, deep neural networks were considered as abandoned technology because they tend to have unstable gradients. This problem is known as vanishing gradient or the opposite, exploding gradient problem.</description>
-    </item>
-    
-    <item>
-      <title>Omicron Sentiment Analysis</title>
-      <link>https://sulthanabiyyu.github.io/project/omicron-sentiment-analysis/</link>
-      <pubDate>Sat, 29 Jan 2022 10:00:26 +0700</pubDate>
-      
-      <guid>https://sulthanabiyyu.github.io/project/omicron-sentiment-analysis/</guid>
-      <description>Under construction.. 🚧👷‍♂️</description>
     </item>
     
     
