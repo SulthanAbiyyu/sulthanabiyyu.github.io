@@ -1,7 +1,7 @@
 ---
 title: "Mkfol"
 date: 2022-07-01T09:59:12+07:00
-draft: false
+draft: true
 weight: 1
 cover:
   image: "img in static"

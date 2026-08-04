@@ -24,17 +24,17 @@
 }
 
 .dark {
-    --theme: #1b211d;
-    --entry: #222a24;
-    --primary: #e8e4d9;
-    --secondary: #a5ada5;
-    --tertiary: #333d35;
-    --content: #d4d1c7;
-    --hljs-bg: #151a17;
-    --code-bg: #29312b;
-    --border: #3c463e;
-    --accent: #a7b69d;
-    --accent-soft: #313c33;
+    --theme: #202329;
+    --entry: #272b32;
+    --primary: #ebe7de;
+    --secondary: #a7abb3;
+    --tertiary: #343941;
+    --content: #d5d1c8;
+    --hljs-bg: #17191d;
+    --code-bg: #2c3037;
+    --border: #444a54;
+    --accent: #d2a06f;
+    --accent-soft: #383532;
 }
 
 html {
@@ -145,10 +145,10 @@ time,
 }
 
 .logo a {
-    font-family: var(--font-sans);
-    font-size: 20px;
-    font-weight: 600;
-    letter-spacing: -0.025em;
+    font-family: var(--font-mono);
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: -0.035em;
 }
 
 .logo a::after {
@@ -243,6 +243,12 @@ button#theme-toggle:hover {
     line-height: 1.05;
 }
 
+.page-header h1 {
+    font-family: var(--font-mono);
+    font-weight: 500;
+    letter-spacing: -0.06em;
+}
+
 .post-description {
     max-width: 58ch;
     color: var(--secondary);
@@ -278,7 +284,7 @@ button#theme-toggle:hover {
     display: grid;
     width: 100%;
     max-width: 780px;
-    grid-template-columns: minmax(0, 1fr) 148px;
+    grid-template-columns: minmax(0, 1fr) 220px;
     grid-template-areas:
         "kicker portrait"
         "title portrait"
@@ -308,17 +314,21 @@ button#theme-toggle:hover {
     color: var(--border);
 }
 
-.profile img {
+.profile-ascii {
     grid-area: portrait;
     justify-self: end;
-    width: min(100%, 148px);
-    height: auto;
-    aspect-ratio: 1;
-    object-fit: cover;
-    border: 1px solid var(--border);
-    border-radius: 4px;
-    filter: saturate(0.66) contrast(0.94);
-    box-shadow: none;
+    margin: 0;
+    padding: 6px 0;
+    color: var(--accent);
+    font-family: var(--font-mono);
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: -0.04em;
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+    user-select: none;
 }
 
 .profile .profile_inner h1 {
@@ -439,8 +449,11 @@ button#theme-toggle:hover {
 
 .entry-header h2 {
     max-width: 28ch;
+    font-family: var(--font-mono);
     font-size: clamp(26px, 3.5vw, 36px);
-    line-height: 1.15;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: -0.055em;
 }
 
 .entry-content {
@@ -695,7 +708,7 @@ button#theme-toggle:hover {
 
 /* Archive, search, terms, 404 */
 .archive-year {
-    font-family: var(--font-sans);
+    font-family: var(--font-mono);
     font-size: 30px;
     font-weight: 600;
 }
@@ -714,7 +727,7 @@ button#theme-toggle:hover {
 }
 
 .archive-entry-title {
-    font-family: var(--font-sans);
+    font-family: var(--font-mono);
     font-size: 20px;
     font-weight: 500;
 }
@@ -761,7 +774,7 @@ button#theme-toggle:hover {
 .not-found {
     height: 70%;
     color: var(--border);
-    font-family: var(--font-sans);
+    font-family: var(--font-mono);
     font-size: clamp(90px, 24vw, 180px);
     font-weight: 600;
 }
@@ -851,26 +864,25 @@ button#theme-toggle:hover {
     }
 
     .profile .profile_inner {
-        grid-template-columns: minmax(0, 1fr) 76px;
+        grid-template-columns: 1fr;
         grid-template-areas:
-            "kicker portrait"
-            "title portrait"
-            "subtitle subtitle"
-            "social social"
-            "buttons buttons";
-        column-gap: 20px;
+            "kicker"
+            "title"
+            "portrait"
+            "subtitle"
+            "social"
+            "buttons";
     }
 
 .profile-kicker {
         margin-bottom: 14px;
     }
 
-.profile img {
-        justify-self: end;
-        width: 76px;
-        margin: 0;
-        border-radius: 3px;
-        box-shadow: none;
+    .profile-ascii {
+        justify-self: start;
+        margin-top: 20px;
+        padding: 10px;
+        font-size: 8px;
         transform: none;
     }
 

@@ -43,8 +43,8 @@ params:
   assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
-    theme_color: "#1b211d"
-    msapplication_TileColor: "#1b211d"
+    theme_color: "#202329"
+    msapplication_TileColor: "#202329"
     favicon: "/favicon_io/favicon.ico"
     favicon16x16: "/favicon_io/favicon-16x16.png"
     favicon32x32: "/favicon_io/favicon-32x32.png"
@@ -60,16 +60,11 @@ params:
     enabled: true # needs to be explicitly set
     title: "Hello, I'm Sulthan."
     subtitle: "I'm an undergrad computer science student at Universitas Brawijaya. I'm interested in data, machine learning, and deep learning (especially natural language processing)"
-    imageUrl: "https://avatars.githubusercontent.com/u/67581937?v=4"
-    imageWidth: 120
-    imageHeight: 120
-
-    imageTitle: Portrait of Sulthan Abiyyu
     buttons:
-      - name: Project
-        url: project
       - name: Blog
         url: blog
+      - name: Project
+        url: project
 
   # home-info mode
   # homeInfoParams:
@@ -82,7 +77,7 @@ params:
     - name: linkedin
       url: "https://www.linkedin.com/in/sulthanabiyyu/"
     - name: email
-      url: "mailto:sabiyyuhakim@gmail.com"
+      url: "mailto:work.biyu@gmail.com"
     - name: cv
       url: "https://drive.google.com/file/d/15XfrUm6ErIhGtAflhNiz7jZSt3Cw921H/view?usp=sharing"
 
@@ -113,13 +108,13 @@ menu:
       name: Home
       url: /
       weight: 10
-    - identifier: project
-      name: Project
-      url: /project/
-      weight: 20
     - identifier: blog
       name: Blog
       url: /blog/
+      weight: 20
+    - identifier: project
+      name: Project
+      url: /project/
       weight: 30
     - identifier: archive
       name: Archive

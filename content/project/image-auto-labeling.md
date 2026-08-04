@@ -1,7 +1,7 @@
 ---
 title: "Image Auto Labeling"
 date: 2022-07-12T10:00:47+07:00
-draft: false
+draft: true
 weight: 1
 cover:
   image: "img in static"
