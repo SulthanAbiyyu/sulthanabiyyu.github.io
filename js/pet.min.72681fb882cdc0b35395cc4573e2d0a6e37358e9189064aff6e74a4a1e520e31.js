@@ -1,1 +1,0 @@
-(()=>{const e=document.querySelector("[data-page-pet]"),t=e?.querySelector("[data-pet-message]");if(!e||!t)return;let n;e.addEventListener("click",()=>{window.clearTimeout(n),t.textContent=e.dataset.greeting,e.classList.add("is-greeting"),n=window.setTimeout(()=>{e.classList.remove("is-greeting"),t.textContent="click me"},1800)})})()
