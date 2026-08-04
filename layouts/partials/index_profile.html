@@ -28,5 +28,12 @@
         </div>
         {{- end }}
     </div>
+    <button class="page-pet" type="button" data-page-pet data-greeting="hi, i'm biyu"
+        aria-label="Biyu's pixel pet. Click to say hello.">
+        <span class="page-pet__message" data-pet-message aria-live="polite">click me</span>
+        <span class="page-pet__facing" aria-hidden="true">
+            <img class="page-pet__sprite" src="{{ "images/biyu-pet.png" | absURL }}" width="512" height="512" alt="">
+        </span>
+    </button>
     {{- end}}
 </div>
