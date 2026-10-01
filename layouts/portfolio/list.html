@@ -9,9 +9,9 @@
 {{- end }}
 
 {{- $groups := slice
-  (dict "key" "work" "label" "Work & Impact" "note" "Built at work. In production, with real users.")
-  (dict "key" "research" "label" "Research" "note" "Peer-reviewed publications.")
-  (dict "key" "lab" "label" "Open Source & Lab" "note" "Built because I wanted them to exist.")
+  (dict "key" "work" "label" "Work & Impact")
+  (dict "key" "research" "label" "Research")
+  (dict "key" "lab" "label" "Open Source & Lab")
 }}
 
 {{- $all := $.RegularPages }}
@@ -19,13 +19,11 @@
 {{- range $groups }}
 {{- $key := .key }}
 {{- $label := .label }}
-{{- $note := .note }}
 {{- $items := sort (where $all "Params.group" $key) "Weight" }}
 {{- if $items }}
 <section class="pf-group" id="{{ $key }}">
   <div class="pf-group-head">
     <h2 class="pf-group-label">{{ $label }}</h2>
-    <p class="pf-group-note">{{ $note }}</p>
   </div>
 
   <ol class="pf-grid">

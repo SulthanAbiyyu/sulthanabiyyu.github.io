@@ -4,7 +4,7 @@ subtitle: "An Indonesian LLM, end to end"
 summary: "Continued pretraining, SFT, and DPO alignment on top of Mistral-7B. Three checkpoints published."
 group: lab
 weight: 10
-period: "2023 — 2024"
+period: "2023 to 2024"
 highlight: "3 models on HuggingFace"
 stack: ["PyTorch", "LoRA", "DPO", "HuggingFace"]
 links:
@@ -27,7 +27,7 @@ every stage rather than stopping at fine-tuning:
    instruction-following.
 3. **DPO alignment** on Wikipedia-derived preference data.
 
-All three checkpoints are published — base, instruct, and aligned — so the
+All three checkpoints are published (base, instruct, and aligned), so the
 effect of each stage can be inspected separately instead of taken on trust.
 
 ## What I got out of it

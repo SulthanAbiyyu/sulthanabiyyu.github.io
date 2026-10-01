@@ -27,7 +27,7 @@ cannot reliably close a JSON object is a demo. A model that returns valid,
 schema-conforming output every time is a component you can build on.
 
 English-language models got this capability early, through datasets like Hermes.
-Indonesian models mostly did not — which quietly limits what anyone can build
+Indonesian models mostly did not, which quietly limits what anyone can build
 with them. Translating and adapting the dataset was the cheapest useful fix I
 could think of.
 
