@@ -2,14 +2,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://sulthanabiyyu.github.io/portfolio/data-engineering/</loc>
-    <lastmod>2024-07-20T17:06:01+07:00</lastmod>
-  </url><url>
     <loc>https://sulthanabiyyu.github.io/blog/uas-pcd/</loc>
     <lastmod>2023-12-16T11:24:14+07:00</lastmod>
-  </url><url>
-    <loc>https://sulthanabiyyu.github.io/portfolio/fanesis/</loc>
-    <lastmod>2023-10-29T16:30:54+07:00</lastmod>
   </url><url>
     <loc>https://sulthanabiyyu.github.io/blog/uas-sismul/</loc>
     <lastmod>2023-06-10T16:14:59+07:00</lastmod>
@@ -31,6 +25,37 @@
   </url><url>
     <loc>https://sulthanabiyyu.github.io/blog/the-long-journey-of-solving-gradient-problem/</loc>
     <lastmod>2022-02-13T20:43:03+07:00</lastmod>
+  </url><url>
+    <loc>https://sulthanabiyyu.github.io/portfolio/anak-baik/</loc>
+  </url><url>
+    <loc>https://sulthanabiyyu.github.io/portfolio/marzuki-7b/</loc>
+  </url><url>
+    <loc>https://sulthanabiyyu.github.io/portfolio/oneanalytics/</loc>
+  </url><url>
+    <loc>https://sulthanabiyyu.github.io/portfolio/ai-image-classification/</loc>
+  </url><url>
+    <loc>https://sulthanabiyyu.github.io/portfolio/herman/</loc>
+  </url><url>
+    <loc>https://sulthanabiyyu.github.io/portfolio/analytics-chatbot/</loc>
+  </url><url>
+    <loc>https://sulthanabiyyu.github.io/portfolio/artinya/</loc>
+  </url><url>
+    <loc>https://sulthanabiyyu.github.io/portfolio/dustiness-qc/</loc>
+  </url><url>
+    <loc>https://sulthanabiyyu.github.io/portfolio/rec2slide/</loc>
+  </url><url>
+    <loc>https://sulthanabiyyu.github.io/portfolio/receipt-invoice-ocr/</loc>
+  </url><url>
+    <loc>https://sulthanabiyyu.github.io/portfolio/etl-pipeline/</loc>
+  </url><url>
+    <loc>https://sulthanabiyyu.github.io/portfolio/pipeline-reliability-qcc/</loc>
+  </url><url>
+    <loc>https://sulthanabiyyu.github.io/portfolio/kuantil/</loc>
+  </url><url>
+    <loc>https://sulthanabiyyu.github.io/portfolio/fanesis/</loc>
+  </url><url>
+    <loc>https://sulthanabiyyu.github.io/portfolio/data-engineering/</loc>
+    <lastmod>2024-07-20T17:06:01+07:00</lastmod>
   </url><url>
     <loc>https://sulthanabiyyu.github.io/portfolio/</loc>
     <lastmod>2024-07-20T17:06:01+07:00</lastmod>

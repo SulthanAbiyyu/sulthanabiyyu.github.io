@@ -8,30 +8,12 @@
     <language>en-us</language>
     <lastBuildDate>Sat, 20 Jul 2024 17:06:01 +0700</lastBuildDate><atom:link href="https://sulthanabiyyu.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Catalogs of Data Engineering Projects</title>
-      <link>https://sulthanabiyyu.github.io/portfolio/data-engineering/</link>
-      <pubDate>Sat, 20 Jul 2024 17:06:01 +0700</pubDate>
-      
-      <guid>https://sulthanabiyyu.github.io/portfolio/data-engineering/</guid>
-      <description>Since 8 months ago, I began learning everything I could find about Data Engineering. I&amp;rsquo;ve consumed a lot of information on the topic from books, blogs, videos, courses, and forums. I’ve learned about the fundamentals, data warehousing, and data movement techniques like ETL and ELT. It has been quite a challenge, but also a lot of fun! There’s still so much more I want to explore. Data Engineering involves a multitude of tools, and I&amp;rsquo;m curious about every one of them.</description>
-    </item>
-    
-    <item>
       <title>Rangkuman UAS Pengolahan Citra Digital</title>
       <link>https://sulthanabiyyu.github.io/blog/uas-pcd/</link>
       <pubDate>Sat, 16 Dec 2023 11:24:14 +0700</pubDate>
       
       <guid>https://sulthanabiyyu.github.io/blog/uas-pcd/</guid>
       <description>Dasar Pengenalan Citra citra berisi matriks yang tiap elemennya adalah pixel yang merepresentasikan warna, bentuk, tekstur konversi citra RGB (0-255 tiap channelnya) ke grayscale pake rata-rata -&amp;gt; $x = \dfrac{r + g + b}{3}$ pake weighted avg -&amp;gt; $x = a_{r}r + a_{g}g + a_{b}b$ dimana $a_{k}$ adalah konstanta yang mengskalakan tiap channelnya dan $a_{r}+ a_{g}+a_{b} = 1$ di python tinggal cv2.cvtColor(img, cv2.COLOR_BGR2GRAY) konversi grayscale (0-255) ke biner (thresholding) pakai threshold $\theta$, misal $\theta=128$, maka $\begin{cases}1 \text{ jika } x \geq \theta \ 0 \text{ jika } x &amp;lt; \theta \end{cases}$ Atau pake rata-rata $\bar{x}$, $\begin{cases}1 \text{ jika } x \geq \bar{x}\ 0 \text{ jika } x &amp;lt; \bar{x} \end{cases}$ 1 itu artinya nyala/putih, 0 kebalikannya cv2.</description>
-    </item>
-    
-    <item>
-      <title>Fanesis (Facial Network Analysis)</title>
-      <link>https://sulthanabiyyu.github.io/portfolio/fanesis/</link>
-      <pubDate>Sun, 29 Oct 2023 16:30:54 +0700</pubDate>
-      
-      <guid>https://sulthanabiyyu.github.io/portfolio/fanesis/</guid>
-      <description>Introduction Fanesis is a Facial Network Analysis tool that analyzes the faces and behaviors of individuals in a group and creates a visual representation of their relationships. Fanesis uses computer vision and machine learning techniques to detect the emotions and interactions of each individual. It then creates two types of associations: group-based and emotion-based. Group-based associations show how individuals are connected within the group, such as who knows whom, who is close to whom, and who is influential to whom.</description>
     </item>
     
     <item>
@@ -100,6 +82,141 @@ Gradient descent may be one of the most important concepts that machine learning
       
       <guid>https://sulthanabiyyu.github.io/blog/the-long-journey-of-solving-gradient-problem/</guid>
       <description>Introduction In neural networks, we use gradients to examine and tweak our weight so it can converge and hopefully have a good general performance. Neural networks were invented around 1944 by Warren McCullough and Walter Pitts. But why is it just trending recently? In the early 2000s, deep neural networks were considered as abandoned technology because they tend to have unstable gradients. This problem is known as vanishing gradient or the opposite, exploding gradient problem.</description>
+    </item>
+    
+    <item>
+      <title>Anak Baik</title>
+      <link>https://sulthanabiyyu.github.io/portfolio/anak-baik/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sulthanabiyyu.github.io/portfolio/anak-baik/</guid>
+      <description>An Indonesian dataset for teaching language models to tell ethical instructions from unethical ones. Published at SEALP 2025.</description>
+    </item>
+    
+    <item>
+      <title>Marzuki-7B</title>
+      <link>https://sulthanabiyyu.github.io/portfolio/marzuki-7b/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sulthanabiyyu.github.io/portfolio/marzuki-7b/</guid>
+      <description>Continued pretraining, SFT, and DPO alignment on top of Mistral-7B. Three checkpoints published.</description>
+    </item>
+    
+    <item>
+      <title>OneAnalytics</title>
+      <link>https://sulthanabiyyu.github.io/portfolio/oneanalytics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sulthanabiyyu.github.io/portfolio/oneanalytics/</guid>
+      <description>A single place for the whole company&amp;rsquo;s business metrics, replacing a request-and-wait reporting process.</description>
+    </item>
+    
+    <item>
+      <title>AI-generated image classification</title>
+      <link>https://sulthanabiyyu.github.io/portfolio/ai-image-classification/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sulthanabiyyu.github.io/portfolio/ai-image-classification/</guid>
+      <description>Detecting whether an image was generated by AI, using fine-tuning techniques on ResNet. Published in JTIIK.</description>
+    </item>
+    
+    <item>
+      <title>Herman</title>
+      <link>https://sulthanabiyyu.github.io/portfolio/herman/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sulthanabiyyu.github.io/portfolio/herman/</guid>
+      <description>An Indonesian adaptation of the Hermes function-calling dataset, for training models to emit reliable structured output.</description>
+    </item>
+    
+    <item>
+      <title>Self-service analytics chatbot</title>
+      <link>https://sulthanabiyyu.github.io/portfolio/analytics-chatbot/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sulthanabiyyu.github.io/portfolio/analytics-chatbot/</guid>
+      <description>An LLM that answers business questions directly against company data, grounded hard enough to be trusted.</description>
+    </item>
+    
+    <item>
+      <title>Artinya</title>
+      <link>https://sulthanabiyyu.github.io/portfolio/artinya/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sulthanabiyyu.github.io/portfolio/artinya/</guid>
+      <description>Translation that tries to preserve tone, nuance, and cultural meaning — then evaluates whether it actually did.</description>
+    </item>
+    
+    <item>
+      <title>Automatic dustiness powder QC</title>
+      <link>https://sulthanabiyyu.github.io/portfolio/dustiness-qc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sulthanabiyyu.github.io/portfolio/dustiness-qc/</guid>
+      <description>Video analysis that measures the dust plume from falling powder, turning a subjective QC judgment into a number.</description>
+    </item>
+    
+    <item>
+      <title>Rec2Slide</title>
+      <link>https://sulthanabiyyu.github.io/portfolio/rec2slide/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sulthanabiyyu.github.io/portfolio/rec2slide/</guid>
+      <description>Reconstructs a slide deck as a PDF from a screen recording. Published on PyPI.</description>
+    </item>
+    
+    <item>
+      <title>Receipt &amp; invoice recognition</title>
+      <link>https://sulthanabiyyu.github.io/portfolio/receipt-invoice-ocr/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sulthanabiyyu.github.io/portfolio/receipt-invoice-ocr/</guid>
+      <description>Automated extraction from receipts and invoices, built to run on edge devices.</description>
+    </item>
+    
+    <item>
+      <title>Batch big data ETL</title>
+      <link>https://sulthanabiyyu.github.io/portfolio/etl-pipeline/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sulthanabiyyu.github.io/portfolio/etl-pipeline/</guid>
+      <description>A dockerized ETL pipeline with star-schema dimensional modeling, built to compare processing engines.</description>
+    </item>
+    
+    <item>
+      <title>Data pipeline reliability</title>
+      <link>https://sulthanabiyyu.github.io/portfolio/pipeline-reliability-qcc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sulthanabiyyu.github.io/portfolio/pipeline-reliability-qcc/</guid>
+      <description>Took a critical pipeline from recurring SLA breaches to full compliance, and won the group-level QCC.</description>
+    </item>
+    
+    <item>
+      <title>Kuantil</title>
+      <link>https://sulthanabiyyu.github.io/portfolio/kuantil/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sulthanabiyyu.github.io/portfolio/kuantil/</guid>
+      <description>Option pricing and quant primitives as small, tested Python modules.</description>
+    </item>
+    
+    <item>
+      <title>Fanesis</title>
+      <link>https://sulthanabiyyu.github.io/portfolio/fanesis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sulthanabiyyu.github.io/portfolio/fanesis/</guid>
+      <description>Maps relationships inside a group from images, using face recognition and emotion detection.</description>
+    </item>
+    
+    <item>
+      <title>Data engineering catalog</title>
+      <link>https://sulthanabiyyu.github.io/portfolio/data-engineering/</link>
+      <pubDate>Sat, 20 Jul 2024 17:06:01 +0700</pubDate>
+      
+      <guid>https://sulthanabiyyu.github.io/portfolio/data-engineering/</guid>
+      <description>Since 8 months ago, I began learning everything I could find about Data Engineering. I&amp;rsquo;ve consumed a lot of information on the topic from books, blogs, videos, courses, and forums. I’ve learned about the fundamentals, data warehousing, and data movement techniques like ETL and ELT. It has been quite a challenge, but also a lot of fun! There’s still so much more I want to explore. Data Engineering involves a multitude of tools, and I&amp;rsquo;m curious about every one of them.</description>
     </item>
     
     
