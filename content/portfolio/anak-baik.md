@@ -5,9 +5,9 @@ summary: "An Indonesian dataset for teaching language models to tell ethical ins
 group: research
 weight: 10
 role: "First author"
-org: "SEALP 2025 — ACL Anthology"
+org: "SEALP 2025, ACL Anthology"
 period: "January 2025"
-highlight: "Peer-reviewed, pp. 52–62"
+highlight: "Peer-reviewed, pp. 52-62"
 stack: ["Language Modeling", "Dataset Creation", "LoRA"]
 links:
   - name: "Paper"
@@ -27,7 +27,7 @@ Association for Computational Linguistics, January 2025.*
 ## The gap
 
 Indonesian LLMs are bad at distinguishing ethical instructions from unethical
-ones — and there was no Indonesian dataset to fix that. Alignment resources are
+ones, and there was no Indonesian dataset to fix that. Alignment resources are
 overwhelmingly English, and what a model learns about harm in English does not
 transfer cleanly into another language and culture.
 
@@ -39,7 +39,7 @@ refrains from harmful action, and that is the behavior we want a model to learn.
 It is a set of Indonesian instruction-response pairs for supervised fine-tuning
 that deliberately includes **both ethical and unethical responses**. The point is
 to let a model learn the distinction, rather than memorize a list of refusal
-phrases — a model that has only ever seen refusals learns to refuse, not to
+phrases. A model that has only ever seen refusals learns to refuse, not to
 reason.
 
 ## Results

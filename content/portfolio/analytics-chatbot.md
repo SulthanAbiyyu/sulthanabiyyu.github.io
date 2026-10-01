@@ -5,7 +5,6 @@ summary: "An LLM that answers business questions directly against company data, 
 group: work
 weight: 20
 role: "Led development"
-org: "PT Lautan Natural Krimerindo"
 period: "2025"
 highlight: "Time-to-insight: 25 hours → 3 minutes"
 stack: ["LLM", "RAG", "Python", "SQL"]
@@ -24,16 +23,16 @@ directly, so the person asking does not need to know where the data lives or how
 to query it.
 
 The hard problem here was never fluency. It was grounding. An analytics chatbot
-that is confidently wrong is strictly worse than no chatbot at all — it produces
+that is confidently wrong is strictly worse than no chatbot at all, because it produces
 numbers that look authoritative, travel into decks, and get acted on. A
 dashboard that is down is obviously down; a chatbot that is subtly wrong is
 invisible.
 
 So most of the work went into two things:
 
-- **Retrieval** — making sure the model is looking at the right slice of data
+- **Retrieval.** Making sure the model is looking at the right slice of data
   before it says anything.
-- **Constraint** — limiting what the model is allowed to assert, and making it
+- **Constraint.** Limiting what the model is allowed to assert, and making it
   decline rather than guess when the data does not support an answer.
 
 ## Where it landed

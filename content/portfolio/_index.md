@@ -8,6 +8,6 @@ footnote: "Everything else lives on [GitHub](https://github.com/SulthanAbiyyu?ta
 ---
 
 I'm a Data Scientist and AI Engineer. Most of my day job is turning messy
-operational problems into something a person can act on — a dashboard, a
+operational problems into something a person can act on: a dashboard, a
 chatbot, a camera pointed at a powder sample. On the side I work on Indonesian
 language models and small tools that scratch my own itch.

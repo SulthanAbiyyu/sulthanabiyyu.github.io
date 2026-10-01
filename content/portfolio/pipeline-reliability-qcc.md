@@ -5,7 +5,6 @@ summary: "Took a critical pipeline from recurring SLA breaches to full complianc
 group: work
 weight: 50
 role: "Continuous improvement project"
-org: "Lautan Luas Tbk. & PT Lautan Natural Krimerindo"
 period: "2025"
 highlight: "100% SLA compliance on ~27K runs per week"
 stack: ["Data Engineering", "Monitoring", "Process design"]
@@ -24,11 +23,11 @@ has no way of telling you it is unwell.
 
 Three things, in order of how much they mattered:
 
-1. **Monitoring** — making failures visible immediately rather than discovered
+1. **Monitoring.** Making failures visible immediately rather than discovered
    downstream by a confused user.
-2. **Error handling** — so a single bad record degrades one row instead of
+2. **Error handling.** A single bad record degrades one row instead of
    taking down a run.
-3. **Operational process** — who gets told, what they do, and how a failed run
+3. **Operational process.** Who gets told, what they do, and how a failed run
    gets recovered without a person reconstructing state by hand.
 
 ## Where it landed
@@ -36,4 +35,4 @@ Three things, in order of how much they mattered:
 **100% SLA compliance.** The delays stopped.
 
 The project took **1st Place** at the company level, then went on to take **1st
-Place at the Lautan Luas Group level**.
+Place at the group level**.
