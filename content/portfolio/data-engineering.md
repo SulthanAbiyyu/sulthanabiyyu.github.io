@@ -1,11 +1,11 @@
 ---
-title: "Catalogs of Data Engineering Projects"
+title: "Data engineering catalog"
+subtitle: "Notes from working through the modern data stack"
 date: 2024-07-20T17:06:01+07:00
-draft: false
-weight: 1
 math: true
-cover:
-  image: "img in static"
+toc: true
+aliases:
+  - /project/de-projects/
 ---
 
 Since 8 months ago, I began learning everything I could find about Data Engineering. I've consumed a lot of information on the topic from books, blogs, videos, courses, and forums. I’ve learned about the fundamentals, data warehousing, and data movement techniques like ETL and ELT. It has been quite a challenge, but also a lot of fun! There’s still so much more I want to explore. Data Engineering involves a multitude of tools, and I'm curious about every one of them.
