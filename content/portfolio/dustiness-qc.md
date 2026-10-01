@@ -5,7 +5,6 @@ summary: "Video analysis that measures the dust plume from falling powder, turni
 group: work
 weight: 30
 role: "Built end to end"
-org: "PT Lautan Natural Krimerindo"
 period: "2025"
 highlight: "100+ samples measured daily"
 stack: ["Computer Vision", "Segmentation", "Python"]
@@ -13,7 +12,7 @@ stack: ["Computer Vision", "Segmentation", "Python"]
 
 ## The problem
 
-Dustiness is a real quality attribute of powder products — how much of it goes
+Dustiness is a real quality attribute of powder products: how much of it goes
 airborne when handled. It was being judged by eye.
 
 Judging by eye has two failure modes that compound. It is inconsistent between

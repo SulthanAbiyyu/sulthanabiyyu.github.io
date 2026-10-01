@@ -22,7 +22,7 @@ links:
 ## Why it matters
 
 AI-generated imagery is useful in research and industry, and corrosive
-everywhere that an image functions as evidence — legal proceedings, political
+everywhere that an image functions as evidence: legal proceedings, political
 reporting, journalism. Being able to ask whether an image is authentic is
 becoming infrastructure.
 

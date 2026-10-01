@@ -26,7 +26,7 @@ It started during a financial management course in my Master of Management, with
 the thought: *is it fun if I turn this into a module?*
 
 It was. It is also the most reliable way I know to find out whether I actually
-understood a formula — a derivation can be nodded along to, but a function has
+understood a formula. A derivation can be nodded along to, but a function has
 to produce the right number, and a test has to agree. Several things I was sure
 I understood did not survive that.
 

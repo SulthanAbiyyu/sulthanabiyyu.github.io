@@ -34,5 +34,5 @@ config = Config(interval=20, threshold=1000.0, score="mse")
 Engine(config).run("lecture.mp4", "lecture.pdf")
 ```
 
-Small, finished, and actually published — which is rarer in my GitHub account
+Small, finished, and actually published, which is rarer in my GitHub account
 than I would like to admit.

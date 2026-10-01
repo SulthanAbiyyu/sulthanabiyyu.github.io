@@ -4,13 +4,6 @@
   <header class="post-header pf-single-header">
     {{ partial "breadcrumbs.html" . }}
 
-    {{- with .Params.group }}
-    <p class="pf-single-group">
-      {{- if eq . "work" }}Work &amp; Impact
-      {{- else if eq . "research" }}Research
-      {{- else }}Open Source &amp; Lab{{ end -}}
-    </p>
-    {{- end }}
 
     <h1 class="post-title">{{ .Title }}</h1>
 
@@ -20,7 +13,7 @@
 
     {{- $facts := slice }}
     {{- with .Params.role }}{{ $facts = $facts | append (dict "k" "Role" "v" .) }}{{ end }}
-    {{- with .Params.org }}{{ $facts = $facts | append (dict "k" "Where" "v" .) }}{{ end }}
+    {{- with .Params.org }}{{ $facts = $facts | append (dict "k" "Published in" "v" .) }}{{ end }}
     {{- with .Params.period }}{{ $facts = $facts | append (dict "k" "When" "v" .) }}{{ end }}
     {{- with .Params.highlight }}{{ $facts = $facts | append (dict "k" "Outcome" "v" .) }}{{ end }}
 
