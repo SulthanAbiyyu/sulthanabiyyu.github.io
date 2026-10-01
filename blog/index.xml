@@ -57,15 +57,6 @@ Basically, it has two main parts: the encoder block (left) and the decoder block
     </item>
     
     <item>
-      <title>Deploying Machine Learning API With Fastapi &#43; Docker &#43; Heroku</title>
-      <link>https://sulthanabiyyu.github.io/blog/deploying-machine-learning-api-with-fastapi-docker-heroku/</link>
-      <pubDate>Fri, 20 Jan 2023 10:02:59 +0700</pubDate>
-      
-      <guid>https://sulthanabiyyu.github.io/blog/deploying-machine-learning-api-with-fastapi-docker-heroku/</guid>
-      <description>Under construction.. 🚧👷‍♂️</description>
-    </item>
-    
-    <item>
       <title>UNBOXING: Batch Gradient Descent</title>
       <link>https://sulthanabiyyu.github.io/blog/unboxing-batch-gradient-descent/</link>
       <pubDate>Wed, 14 Dec 2022 10:02:36 +0700</pubDate>
