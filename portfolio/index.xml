@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Projects on Sulthan Abiyyu</title>
-    <link>https://sulthanabiyyu.github.io/project/</link>
-    <description>Recent content in Projects on Sulthan Abiyyu</description>
+    <title>Portfolio on Sulthan Abiyyu</title>
+    <link>https://sulthanabiyyu.github.io/portfolio/</link>
+    <description>Recent content in Portfolio on Sulthan Abiyyu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 20 Jul 2024 17:06:01 +0700</lastBuildDate><atom:link href="https://sulthanabiyyu.github.io/project/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 20 Jul 2024 17:06:01 +0700</lastBuildDate><atom:link href="https://sulthanabiyyu.github.io/portfolio/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Catalogs of Data Engineering Projects</title>
-      <link>https://sulthanabiyyu.github.io/project/de-projects/</link>
+      <link>https://sulthanabiyyu.github.io/portfolio/data-engineering/</link>
       <pubDate>Sat, 20 Jul 2024 17:06:01 +0700</pubDate>
       
-      <guid>https://sulthanabiyyu.github.io/project/de-projects/</guid>
+      <guid>https://sulthanabiyyu.github.io/portfolio/data-engineering/</guid>
       <description>Since 8 months ago, I began learning everything I could find about Data Engineering. I&amp;rsquo;ve consumed a lot of information on the topic from books, blogs, videos, courses, and forums. I’ve learned about the fundamentals, data warehousing, and data movement techniques like ETL and ELT. It has been quite a challenge, but also a lot of fun! There’s still so much more I want to explore. Data Engineering involves a multitude of tools, and I&amp;rsquo;m curious about every one of them.</description>
     </item>
     
     <item>
       <title>Fanesis (Facial Network Analysis)</title>
-      <link>https://sulthanabiyyu.github.io/project/fanesis/</link>
+      <link>https://sulthanabiyyu.github.io/portfolio/fanesis/</link>
       <pubDate>Sun, 29 Oct 2023 16:30:54 +0700</pubDate>
       
-      <guid>https://sulthanabiyyu.github.io/project/fanesis/</guid>
+      <guid>https://sulthanabiyyu.github.io/portfolio/fanesis/</guid>
       <description>Introduction Fanesis is a Facial Network Analysis tool that analyzes the faces and behaviors of individuals in a group and creates a visual representation of their relationships. Fanesis uses computer vision and machine learning techniques to detect the emotions and interactions of each individual. It then creates two types of associations: group-based and emotion-based. Group-based associations show how individuals are connected within the group, such as who knows whom, who is close to whom, and who is influential to whom.</description>
     </item>
     
