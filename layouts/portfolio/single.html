@@ -1,0 +1,104 @@
+{{- define "main" }}
+
+<article class="post-single pf-single">
+  <header class="post-header pf-single-header">
+    {{ partial "breadcrumbs.html" . }}
+
+    {{- with .Params.group }}
+    <p class="pf-single-group">
+      {{- if eq . "work" }}Work &amp; Impact
+      {{- else if eq . "research" }}Research
+      {{- else }}Open Source &amp; Lab{{ end -}}
+    </p>
+    {{- end }}
+
+    <h1 class="post-title">{{ .Title }}</h1>
+
+    {{- with .Params.subtitle }}
+    <p class="pf-single-subtitle">{{ . }}</p>
+    {{- end }}
+
+    {{- $facts := slice }}
+    {{- with .Params.role }}{{ $facts = $facts | append (dict "k" "Role" "v" .) }}{{ end }}
+    {{- with .Params.org }}{{ $facts = $facts | append (dict "k" "Where" "v" .) }}{{ end }}
+    {{- with .Params.period }}{{ $facts = $facts | append (dict "k" "When" "v" .) }}{{ end }}
+    {{- with .Params.highlight }}{{ $facts = $facts | append (dict "k" "Outcome" "v" .) }}{{ end }}
+
+    {{- if $facts }}
+    <dl class="pf-facts">
+      {{- range $facts }}
+      <div class="pf-fact">
+        <dt>{{ .k }}</dt>
+        <dd>{{ .v }}</dd>
+      </div>
+      {{- end }}
+    </dl>
+    {{- end }}
+
+    {{- with .Params.stack }}
+    <ul class="pf-stack">
+      {{- range . }}<li>{{ . }}</li>{{ end }}
+    </ul>
+    {{- end }}
+
+    {{- with .Params.links }}
+    <ul class="pf-links">
+      {{- range . }}
+      <li>
+        <a href="{{ .url }}"{{ if findRE "://" .url }} rel="noopener noreferrer" target="_blank"{{ end }}>
+          {{ .name }}
+          {{- if findRE "://" .url }}
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+            stroke-linejoin="round" width="11" height="11" aria-hidden="true">
+            <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6" />
+            <path d="M15 3h6v6" />
+            <path d="M10 14L21 3" />
+          </svg>
+          {{- end }}
+        </a>
+      </li>
+      {{- end }}
+    </ul>
+    {{- end }}
+  </header>
+
+  {{- if and (.Param "ShowToc") .Params.toc }}
+  {{- partial "toc.html" . }}
+  {{- end }}
+
+  {{- if .Content }}
+  <div class="post-content">
+    {{- if not (.Param "disableAnchoredHeadings") }}
+    {{- partial "anchored_headings.html" .Content -}}
+    {{- else }}{{ .Content }}{{ end }}
+  </div>
+  {{- end }}
+
+  <footer class="post-footer pf-single-footer">
+    <a class="pf-back" href="{{ .CurrentSection.Permalink }}">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"
+        stroke-linejoin="round" width="15" height="15" aria-hidden="true">
+        <line x1="19" y1="12" x2="5" y2="12" />
+        <polyline points="11 18 5 12 11 6" />
+      </svg>
+      All projects
+    </a>
+
+    {{- $sibs := sort (where .CurrentSection.RegularPages "Params.group" .Params.group) "Weight" }}
+    {{- $next := "" }}
+    {{- range $i, $p := $sibs }}
+    {{- if eq $p.Permalink $.Permalink }}
+    {{- $n := add $i 1 }}
+    {{- if lt $n (len $sibs) }}{{ $next = index $sibs $n }}{{ end }}
+    {{- end }}
+    {{- end }}
+    {{- with $next }}
+    <a class="pf-next" href="{{ .Permalink }}">
+      <span class="pf-next-label">Next</span>
+      <span class="pf-next-title">{{ .Title }}</span>
+    </a>
+    {{- end }}
+  </footer>
+</article>
+
+{{- end }}{{/* end main */}}

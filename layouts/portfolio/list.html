@@ -1,0 +1,77 @@
+{{- define "main" }}
+
+<header class="page-header pf-header">
+  <h1>{{ .Title }}</h1>
+</header>
+
+{{- with .Content }}
+<div class="pf-intro">{{ . }}</div>
+{{- end }}
+
+{{- $groups := slice
+  (dict "key" "work" "label" "Work & Impact" "note" "Built at work. In production, with real users.")
+  (dict "key" "research" "label" "Research" "note" "Peer-reviewed publications.")
+  (dict "key" "lab" "label" "Open Source & Lab" "note" "Built because I wanted them to exist.")
+}}
+
+{{- $all := $.RegularPages }}
+
+{{- range $groups }}
+{{- $key := .key }}
+{{- $label := .label }}
+{{- $note := .note }}
+{{- $items := sort (where $all "Params.group" $key) "Weight" }}
+{{- if $items }}
+<section class="pf-group" id="{{ $key }}">
+  <div class="pf-group-head">
+    <h2 class="pf-group-label">{{ $label }}</h2>
+    <p class="pf-group-note">{{ $note }}</p>
+  </div>
+
+  <ol class="pf-grid">
+    {{- range $i, $p := $items }}
+    <li class="pf-card">
+      <a class="pf-card-link" href="{{ $p.Permalink }}">
+        <span class="pf-card-index" aria-hidden="true">{{ printf "%02d" (add $i 1) }}</span>
+
+        <span class="pf-card-body">
+          <span class="pf-card-title">{{ $p.Title }}</span>
+          {{- with $p.Params.subtitle }}
+          <span class="pf-card-subtitle">{{ . }}</span>
+          {{- end }}
+          {{- with $p.Params.summary }}
+          <span class="pf-card-summary">{{ . }}</span>
+          {{- end }}
+        </span>
+
+        <span class="pf-card-foot">
+          {{- with $p.Params.highlight }}
+          <span class="pf-card-metric">{{ . }}</span>
+          {{- end }}
+          {{- with $p.Params.stack }}
+          <span class="pf-card-stack">
+            {{- range . }}<span>{{ . }}</span>{{ end -}}
+          </span>
+          {{- end }}
+        </span>
+
+        <span class="pf-card-cue" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"
+            stroke-linejoin="round" width="16" height="16">
+            <line x1="5" y1="12" x2="19" y2="12" />
+            <polyline points="13 6 19 12 13 18" />
+          </svg>
+        </span>
+      </a>
+    </li>
+    {{- end }}
+  </ol>
+</section>
+{{- end }}
+{{- end }}
+
+{{- with .Params.footnote }}
+<p class="pf-footnote">{{ . | markdownify }}</p>
+{{- end }}
+
+{{- end }}{{/* end main */}}

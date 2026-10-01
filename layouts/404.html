@@ -1,3 +1,21 @@
 {{- define "main" }}
 <div class="not-found">404</div>
+
+<p class="not-found-note">
+  That page isn't here. Try the <a href="{{ "portfolio/" | absURL }}">portfolio</a>,
+  the <a href="{{ "blog/" | absURL }}">blog</a>, or <a href="{{ "search/" | absURL }}">search</a>.
+</p>
+
+{{/* The portfolio used to live under /project/. Anything still pointing there
+     lands on this 404 (GitHub Pages has no server-side rewrites), so send it on.
+     Exact old URLs are handled by Hugo aliases; this catches the rest. */}}
+<script>
+  (function () {
+    var path = window.location.pathname;
+    var moved = /^\/projects?(\/|$)/;
+    if (moved.test(path)) {
+      window.location.replace("{{ "portfolio/" | absURL }}");
+    }
+  })();
+</script>
 {{- end }}{{/* end main */ -}}

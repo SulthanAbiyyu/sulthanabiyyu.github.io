@@ -1,10 +1,16 @@
 ---
-title: "Fanesis (Facial Network Analysis)"
-date: 2023-10-29T16:30:54+07:00
-draft: false
-weight: 1
-cover:
-  image: "img in static"
+title: "Fanesis"
+subtitle: "Facial network analysis"
+summary: "Maps relationships inside a group from images, using face recognition and emotion detection."
+group: lab
+weight: 70
+period: "2023"
+stack: ["Computer Vision", "Graph Analysis", "Python"]
+links:
+  - name: "Code"
+    url: "https://github.com/SulthanAbiyyu/fanesis"
+aliases:
+  - /project/fanesis/
 ---
 
 ## Introduction
