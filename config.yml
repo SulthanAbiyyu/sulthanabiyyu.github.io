@@ -24,6 +24,8 @@ params:
   defaultTheme: auto # dark, light
   disableThemeToggle: false
 
+  mainSections: ["blog"]
+
   ShowAllPagesInArchive: true
   ShowReadingTime: true
   ShowShareButtons: false
@@ -59,12 +61,12 @@ params:
   profileMode:
     enabled: true # needs to be explicitly set
     title: "Hi, I'm Biyu"
-    subtitle: "I'm an undergrad computer science student at Universitas Brawijaya. I'm interested in data, machine learning, and deep learning (especially natural language processing)"
+    subtitle: "I'm a Data Scientist and AI Engineer. I build analytics and AI products that people actually use, and I work on Indonesian language models on the side."
     buttons:
       - name: Blog
         url: blog
-      - name: Project
-        url: project
+      - name: Portfolio
+        url: portfolio
 
   # home-info mode
   # homeInfoParams:
@@ -112,9 +114,9 @@ menu:
       name: Blog
       url: /blog/
       weight: 20
-    - identifier: project
-      name: Project
-      url: /project/
+    - identifier: portfolio
+      name: Portfolio
+      url: /portfolio/
       weight: 30
     - identifier: archive
       name: Archive

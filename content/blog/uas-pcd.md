@@ -2,6 +2,7 @@
 title: "Rangkuman UAS Pengolahan Citra Digital"
 date: 2023-12-16T11:24:14+07:00
 draft: false
+hiddenInList: true
 weight: 1
 math: true
 cover:

@@ -38,6 +38,10 @@
 
 {{- $pages := union .RegularPages .Sections }}
 
+{{/* Pages flagged `hiddenInList` stay reachable by URL and in /archive,
+     but are kept out of section listings (e.g. exam-revision notes). */}}
+{{- $pages = where $pages "Params.hiddenInList" "!=" true }}
+
 {{- if .IsHome }}
 {{- $pages = where site.RegularPages "Type" "in" site.Params.mainSections }}
 {{- $pages = where $pages "Params.hiddenInHomeList" "!=" "true"  }}

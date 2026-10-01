@@ -931,3 +931,42 @@ button#theme-toggle:hover {
     }
 
 }
+
+/* Portfolio */
+
+.portfolio-page .post-content h2 {
+    margin-top: 2.6em;
+    padding-bottom: 0.35em;
+    border-bottom: 1px solid var(--border);
+}
+
+.portfolio-page .post-content h3 {
+    margin-top: 2em;
+    margin-bottom: 0.25em;
+}
+
+/* The italic line directly under an entry title is its meta row. */
+.portfolio-page .post-content h3+p em:first-child {
+    display: inline-block;
+    font-style: normal;
+    font-family: var(--font-mono);
+    font-size: 0.78rem;
+    letter-spacing: 0.02em;
+    color: var(--secondary);
+}
+
+.portfolio-page .post-content h3+p {
+    margin-bottom: 1.1em;
+    color: var(--secondary);
+}
+
+/* Trailing row of resource links: Code · Dataset · Paper … */
+.portfolio-page .post-content p>a:first-child:last-of-type~em,
+.portfolio-page .post-content p a[href^="http"] {
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
+}
+
+.portfolio-page .post-content hr {
+    margin: 3.2em 0 0;
+}
