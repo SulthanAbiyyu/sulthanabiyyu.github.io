@@ -2,6 +2,7 @@
 title: "Rangkuman UAS Sistem Multimedia"
 date: 2023-06-10T16:14:59+07:00
 draft: false
+hiddenInList: true
 weight: 1
 math: true
 cover:
