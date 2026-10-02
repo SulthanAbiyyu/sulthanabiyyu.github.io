@@ -39,6 +39,15 @@
 </script>
 {{- end }}
 
+{{- /* Wordmark suffix: where the reader currently is. Empty on the home page,
+       the section name inside a section, otherwise the page's own title. */ -}}
+{{- $crumb := "" }}
+{{- if not .IsHome }}
+{{- if .Section }}{{ $crumb = .Section }}
+{{- else if in (slice "page" "section" "term" "taxonomy") .Kind }}{{ $crumb = .Title }}
+{{- end }}
+{{- end }}
+
 <header class="header">
     <nav class="nav">
         <div class="logo">
@@ -70,6 +79,7 @@
                     {{ site.Params.label.iconSVG | safeHTML }}
                 {{- end -}}
                 {{- $label_text -}}
+                {{- with $crumb }}<span class="logo-crumb">/ {{ . }}</span>{{ end -}}
             </a>
             {{- end }}
             <div class="logo-switches">
