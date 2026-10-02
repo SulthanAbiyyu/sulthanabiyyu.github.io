@@ -151,8 +151,8 @@ time,
     letter-spacing: -0.035em;
 }
 
-.logo a::after {
-    content: " / portfolio";
+.logo-crumb {
+    margin-left: 7px;
     color: var(--secondary);
     font-family: var(--font-mono);
     font-size: 10px;
@@ -823,7 +823,7 @@ button#theme-toggle:hover {
         padding-bottom: 10px;
     }
 
-    .logo a::after {
+    .logo-crumb {
         display: none;
     }
 
