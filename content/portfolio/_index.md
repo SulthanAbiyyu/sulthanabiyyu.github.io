@@ -7,7 +7,8 @@ aliases:
 footnote: "Everything else lives on [GitHub](https://github.com/SulthanAbiyyu?tab=repositories)."
 ---
 
-I'm a Data Scientist and AI Engineer. Most of my day job is turning messy
-operational problems into something a person can act on: a dashboard, a
-chatbot, a camera pointed at a powder sample. On the side I work on Indonesian
-language models and small tools that scratch my own itch.
+Data Scientist and AI Engineer who builds analytics and AI products adopted by
+the Board of Directors, Finance, and Sales. Delivered a data-grounded chatbot
+cutting time-to-insight from 25 hours to 3 minutes, and a dashboard platform
+used daily by 50+ managers. Skilled in Python, SQL, cloud data platforms, and
+end-to-end ML.
