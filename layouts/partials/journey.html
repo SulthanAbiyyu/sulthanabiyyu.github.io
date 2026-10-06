@@ -1,0 +1,31 @@
+{{- $j := site.Data.journey }}
+{{- with $j }}
+<div class="journey" id="journey">
+  <div class="journey-inner">
+    <div class="journey-head">
+      <span class="journey-title">git log --graph --all</span>
+      <span class="journey-legend">
+        {{- range .lanes }}
+        <i data-lane="{{ .id }}"><b></b>{{ .label }}</i>
+        {{- end }}
+      </span>
+    </div>
+
+    {{/* Rendered server side so the timeline is readable without JavaScript.
+         The script swaps this list for the SVG graph when it can. */}}
+    <div class="journey-scroll" id="journey-scroll">
+      <ol class="journey-list" id="journey-list">
+        {{- range .events }}
+        <li data-tier="{{ .tier }}">
+          <span class="journey-year">{{ .year }}</span>
+          <span class="journey-label">{{ .title }}</span>
+          <span class="journey-meta">{{ .meta }}</span>
+        </li>
+        {{- end }}
+      </ol>
+    </div>
+  </div>
+
+  <script type="application/json" id="journey-data">{{ .events | jsonify | safeJS }}</script>
+</div>
+{{- end }}
