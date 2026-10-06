@@ -1,0 +1,39 @@
+{{- define "main" }}
+
+{{- $cv := .Params.cvFile -}}
+
+<article class="post-single cv-page">
+  <header class="post-header">
+    <h1 class="post-title">{{ .Title }}</h1>
+    {{- with .Params.cvUpdated }}
+    <div class="post-description">Last updated {{ . }}</div>
+    {{- end }}
+  </header>
+
+  <div class="cv-actions">
+    <a class="cv-btn cv-btn-primary" href="{{ $cv | relURL }}" target="_blank" rel="noopener">
+      Open full page
+    </a>
+    <a class="cv-btn" href="{{ $cv | relURL }}" download>
+      Save a copy
+    </a>
+  </div>
+
+  <div class="cv-viewer">
+    <object data="{{ $cv | relURL }}#view=FitH" type="application/pdf" aria-label="{{ .Title }} as an embedded PDF">
+      <p class="cv-fallback">
+        This browser will not display the PDF inline.
+        <a href="{{ $cv | relURL }}" target="_blank" rel="noopener">Open it in a new tab</a> instead.
+      </p>
+    </object>
+  </div>
+
+  <p class="cv-small-screen">
+    The embedded viewer is hidden on small screens because mobile browsers render it poorly.
+    <a href="{{ $cv | relURL }}" target="_blank" rel="noopener">Open the CV in a new tab</a>.
+  </p>
+
+  {{- with .Content }}<div class="post-content">{{ . }}</div>{{- end }}
+</article>
+
+{{- end }}
