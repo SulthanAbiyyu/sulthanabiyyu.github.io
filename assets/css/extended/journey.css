@@ -91,10 +91,25 @@
 
     .journey-scroll { scrollbar-width: thin; scrollbar-color: var(--border) transparent; }
 
+    /* Fixed, not min-height: card content ranges from two lines to four bullets,
+       and letting that drive the row heights made the whole hero resize by ~170px
+       as you moved between commits. The tallest card scrolls instead. */
     .journey-card {
         grid-area: card;
         margin-top: 30px;
-        min-height: 210px;
+        height: 280px;
+        overflow-y: auto;
+        overscroll-behavior: contain;
+        scrollbar-width: thin;
+        scrollbar-color: var(--border) transparent;
+    }
+
+    .journey-card::-webkit-scrollbar { width: 4px; }
+    .journey-card::-webkit-scrollbar-track { background: transparent; }
+
+    .journey-card::-webkit-scrollbar-thumb {
+        background: var(--border);
+        border-radius: 2px;
     }
 }
 
