@@ -1,0 +1,227 @@
+# Timeline shown as a git graph on the home page.
+# tier: "major" = education and roles (heavy). "minor" = projects, papers, certs (light).
+# lane: main | research | lab          order: top to bottom, oldest first.
+lanes:
+  - id: main
+    label: main
+  - id: research
+    label: research
+  - id: lab
+    label: lab
+
+events:
+  - id: 6fstudio
+    lane: main
+    tier: major
+    year: "2020"
+    title: "Small business owner, 6FStudio"
+    meta: "Self-employed · Malang · Jul 2020 to Feb 2024"
+    highlight: "3 years 8 months"
+    body:
+      - "Built a scalable Blender plugin as a team, and grew an existing product's features."
+      - "Identified, analysed and fixed bugs, and produced the user guide videos."
+    stack: ["Python", "Blender"]
+
+  - id: ub
+    lane: main
+    tier: major
+    year: "2021"
+    title: "Informatics, Universitas Brawijaya"
+    meta: "Bachelor of Science · Malang · Aug 2021 to Dec 2024"
+    highlight: "GPA 3.95 / 4.00"
+    body:
+      - "Informatics Engineering, with a Lab Teaching Assistant stint for Basic Programming and a Research Assistant role at FILKOM."
+      - "Certifications along the way: AWS Academy Data Engineering, DeepLearning.AI NLP in TensorFlow, Architecting on AWS, Machine Learning Specialization."
+    stack: []
+
+  - id: bcc
+    lane: main
+    tier: major
+    year: "2022"
+    title: "Data Scientist, BCC FILKOM UB"
+    meta: "Student organisation · Feb 2022 to Jul 2024"
+    highlight: "2 years 6 months"
+    body:
+      - "Competed in data competitions, mentored the BCC Internship in 2023 and 2024."
+      - "Spoke at the Data Science Mini Bootcamp 2023."
+    stack: ["Data Science", "Machine Learning"]
+
+  - id: gdsc
+    lane: main
+    tier: major
+    year: "2022"
+    title: "ML Core Team, GDSC Brawijaya"
+    meta: "Google Developer Student Clubs · Sep 2022 to Sep 2023"
+    highlight: ""
+    body:
+      - "Spoke at the TechSeries workshop, Hands on Deep Learning With TensorFlow."
+      - "Mentored the Google Solution Challenge preparation camp in open clinic sessions."
+    stack: ["Deep Learning", "TensorFlow"]
+
+  - id: fanesis
+    lane: lab
+    tier: minor
+    year: "2023"
+    title: "Fanesis"
+    meta: "Personal project · Oct 2023"
+    highlight: ""
+    body:
+      - "Maps the relationships inside a group from images, using face recognition and emotion detection, then builds group-based and emotion-based associations."
+    stack: ["Computer Vision", "Facial Recognition"]
+    url: "/portfolio/fanesis/"
+
+  - id: marzuki
+    lane: lab
+    tier: minor
+    year: "2023"
+    title: "Marzuki-7B"
+    meta: "Personal project · Nov 2023 to Jun 2024"
+    highlight: "3 models on HuggingFace"
+    body:
+      - "An Indonesian LLM end to end: continued pretraining, supervised fine-tuning, then DPO alignment."
+    stack: ["LLM", "SFT", "DPO"]
+    url: "/portfolio/marzuki-7b/"
+
+  - id: rec2slide
+    lane: lab
+    tier: minor
+    year: "2024"
+    title: "Rec2Slide"
+    meta: "Personal project · Feb 2024"
+    highlight: "pip install rec2slide"
+    body:
+      - "Turns a screen recording of slides into a PDF by sampling frames and keeping the ones that differ enough to be a new slide."
+    stack: ["Computer Vision", "Python"]
+    url: "/portfolio/rec2slide/"
+
+  - id: bangkit
+    lane: main
+    tier: major
+    year: "2024"
+    title: "ML Cohort, Bangkit Academy"
+    meta: "Google, Tokopedia, Gojek & Traveloka · Feb to Jul 2024"
+    highlight: "1 of 4,650 cohorts"
+    body:
+      - "Six-month intensive on data science and machine learning fundamentals."
+    stack: ["Python", "Machine Learning"]
+
+  - id: solafune
+    lane: main
+    tier: major
+    year: "2024"
+    title: "ML Engineer, Solafune"
+    meta: "Apprenticeship · Tokyo, remote · Apr to Jul 2024"
+    highlight: ""
+    body:
+      - "Collected and preprocessed satellite imagery, trained a segmentation model for remote sensing."
+      - "Built and optimised a satellite image retrieval system through caching."
+    stack: ["Remote Sensing", "Segmentation"]
+
+  - id: sparse
+    lane: lab
+    tier: minor
+    year: "2024"
+    title: "SPARSE, solar panel remote sensing"
+    meta: "Project with Solafune · May to Jul 2024"
+    highlight: "U-Net with a ViT encoder"
+    body:
+      - "Segments solar panels from Sentinel-2 imagery and reports area, power generated and potential emission savings."
+    stack: ["Computer Vision", "Remote Sensing"]
+
+  - id: jtiik
+    lane: research
+    tier: minor
+    year: "2024"
+    title: "AI-generated image classification"
+    meta: "First author · JTIIK Vol. 11 No. 3 · Jun 2024"
+    highlight: "F1 score 0.963"
+    body:
+      - "Fine-tuned residual networks for detecting synthetic images."
+    stack: ["ResNet", "PyTorch"]
+    url: "/portfolio/ai-image-classification/"
+
+  - id: w4c
+    lane: main
+    tier: major
+    year: "2024"
+    title: "Data Analyst, Waste4Change"
+    meta: "Internship · Bekasi, remote · Aug to Dec 2024"
+    highlight: "85% accuracy on waste classification"
+    body:
+      - "Collected, aggregated, transformed and stored data on waste generation, facilities and composition."
+      - "Designed a data visualisation dashboard on Looker Studio."
+    stack: ["Looker Studio", "Machine Learning"]
+
+  - id: grad
+    lane: main
+    tier: major
+    year: "2024"
+    title: "Graduated from Brawijaya"
+    meta: "Bachelor of Science in Informatics · Dec 2024"
+    highlight: "GPA 3.95 / 4.00"
+    body: []
+    stack: []
+
+  - id: anakbaik
+    lane: research
+    tier: minor
+    year: "2025"
+    title: "Anak Baik"
+    meta: "First author · SEALP 2025, ACL Anthology · Jan 2025"
+    highlight: "Peer reviewed, pp. 52-62"
+    body:
+      - "An Indonesian dataset of instruction-output pairs that teaches models to tell ethical from unethical responses, plus Anak Baik 7B fine-tuned on it."
+      - "LoRA cut trainable parameters by over 90% while still improving safety alignment scores."
+    stack: ["Language Modeling", "LoRA"]
+    url: "/portfolio/anak-baik/"
+
+  - id: vobis
+    lane: main
+    tier: major
+    year: "2025"
+    title: "AI Engineer, Vobis"
+    meta: "Full-time, remote · Jan to Mar 2025"
+    highlight: "92% accuracy on internal benchmarks"
+    body:
+      - "Receipt and invoice recognition combining native OCR with LLM document parsing, tuned for edge devices."
+      - "An LLM chatbot grounded with hybrid RAG, mixing semantic and keyword search."
+    stack: ["OCR", "LLM", "RAG"]
+    url: "/portfolio/receipt-invoice-ocr/"
+
+  - id: lnk
+    lane: main
+    tier: major
+    year: "2025"
+    title: "Data Analytics & Science, LNK"
+    meta: "PT Lautan Natural Krimerindo · Mojosari · Apr 2025 to present"
+    highlight: "1st place, Quality Control Circle"
+    body:
+      - "OneAnalytics, an internal analytics platform used daily by 50+ users at manager level and above."
+      - "A data-grounded chatbot for self-service analytics. Time-to-insight: 25 hours to 3 minutes."
+      - "Automatic dustiness powder QC from video, measuring 100+ samples a day."
+      - "Pipeline reliability work that reached 100% SLA on ~27K runs a week, winning 1st place at company then group level."
+    stack: ["LLM", "Computer Vision", "SQL"]
+    url: "/portfolio/oneanalytics/"
+
+  - id: kuantil
+    lane: lab
+    tier: minor
+    year: "2026"
+    title: "Kuantil"
+    meta: "Personal project · 2026"
+    highlight: ""
+    body:
+      - "Option pricing and quant primitives as small, tested Python modules."
+    stack: ["Python", "pytest"]
+    url: "/portfolio/kuantil/"
+
+  - id: ubaya
+    lane: main
+    tier: major
+    year: "2026"
+    title: "Master of Management, UBAYA"
+    meta: "Universitas Surabaya · Mar 2026 to 2028"
+    highlight: ""
+    body:
+      - "A management degree running alongside the engineering work."
+    stack: []

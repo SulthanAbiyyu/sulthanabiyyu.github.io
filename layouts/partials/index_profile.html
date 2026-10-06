@@ -27,6 +27,12 @@
             {{- end }}
         </div>
         {{- end }}
+
+        <div class="journey-card" id="journey-card" aria-live="polite"></div>
+        {{ partial "journey.html" . }}
     </div>
     {{- end}}
+
+    {{- $journeyJS := resources.Get "js/journey.js" | resources.Minify }}
+    <script defer src="{{ $journeyJS.RelPermalink }}"></script>
 </div>
